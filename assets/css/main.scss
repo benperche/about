@@ -362,6 +362,18 @@ section + section { border-top: 1px solid var(--rule); }
   margin-bottom: 3rem;
 }
 
+.repertoire__section-title {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--navy);
+  font-size: 1.4rem;
+}
+
+.repertoire__section-title:first-of-type {
+  margin-top: 0;
+}
+
 .repertoire__category {
   margin-bottom: 3rem;
 }
@@ -380,6 +392,7 @@ section + section { border-top: 1px solid var(--rule); }
 .repertoire__list {
   list-style: none;
 }
+
 .repertoire__item {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -388,13 +401,17 @@ section + section { border-top: 1px solid var(--rule); }
   border-bottom: 1px solid var(--bg-off);
 }
 
-.repertoire__item:last-child { border-bottom: none; }
+.repertoire__item:last-child {
+  border-bottom: none;
+}
 
 .repertoire__composer {
   font-weight: 600;
   color: var(--ink);
   grid-column: 1;
   grid-row: 1;
+  margin-right: 0.5rem;
+  display: inline;
 }
 
 .repertoire__work {
@@ -402,42 +419,40 @@ section + section { border-top: 1px solid var(--rule); }
   font-style: italic;
   grid-column: 1;
   grid-row: 1;
-  margin-left: 0.5rem;
+  display: inline;
 }
 
 .repertoire__group {
-  font-size: 0.82rem;
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
   color: var(--muted);
   grid-column: 1;
   grid-row: 2;
-  margin-top: 0.15rem;
+  margin-top: 0.2rem;
+  display: block;
 }
 
 .repertoire__year {
-  margin-left: auto;
   font-family: var(--font-ui);
   font-size: 0.82rem;
   color: var(--muted);
   grid-column: 2;
   grid-row: 1;
   align-self: center;
-}
-
-.repertoire__section-title {
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 2px solid var(--navy);
-  font-size: 1.4rem;
-}
-
-.repertoire__section-title:first-of-type {
-  margin-top: 0;
+  margin-left: 1rem;
+  white-space: nowrap;
 }
 
 @media (max-width: 600px) {
-  .repertoire__item { flex-direction: column; gap: 0.1rem; }
-  .repertoire__composer { min-width: unset; }
+  .repertoire__item {
+    grid-template-columns: 1fr;
+  }
+  .repertoire__year {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 0;
+    margin-top: 0.15rem;
+  }
 }
 
 /* ─── Projects ───────────────────────────────────────────────────────────────── */
