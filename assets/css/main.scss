@@ -494,7 +494,7 @@ section + section { border-top: 1px solid var(--rule); }
 .hero__banner {
   position: relative;
   width: 100%;
-  height: clamp(380px, 55vw, 620px);
+  height: clamp(480px, 70vw, 780px);
   overflow: hidden;
 }
 
