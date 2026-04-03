@@ -34,6 +34,15 @@ title: Projects
   </div>
 
   <div class="project-card">
+      <p class="project-card__label">Chamber Ensemble</p>
+      <h2 class="project-card__title">Musique Courante</h2>
+      <p class="project-card__desc">
+        Project based ensemble in Sydney dedicated to presenting contemporary chamber works.
+      </p>
+      <a href="https://benperche.github.io/intricate-mechanisms/" class="project-card__link">Intricate Mechnaisms Program →</a>
+  </div>
+
+  <div class="project-card">
     <p class="project-card__label">Band Admin Software</p>
     <h2 class="project-card__title">BandForté</h2>
     <p class="project-card__desc">

@@ -45,6 +45,7 @@ title: Home
 
 <section>
   <div class="container">
+    <h2>Connect with Ben</h2>
     <ul class="social-links">
         <li><a href="https://www.linkedin.com/in/ben-perche-bb199a1a3/" target="_blank" rel="noopener">LinkedIn</a></li>
         <li><a href="https://www.youtube.com/channel/UCq9RC5spTKDTUyw67Oher-A" target="_blank" rel="noopener">YouTube</a></li>
