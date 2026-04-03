@@ -253,6 +253,38 @@ section + section { border-top: 1px solid var(--rule); }
   }
 }
 
+/* ─── Load animations ─────────────────────────────────────────────────────────── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero__banner {
+  animation: fadeUp 0.7s ease forwards;
+}
+
+.hero__eyebrow {
+  animation: fadeUp 0.7s ease 0.15s both;
+}
+
+.hero__name {
+  animation: fadeUp 0.7s ease 0.25s both;
+}
+
+.hero__tagline {
+  animation: fadeUp 0.7s ease 0.35s both;
+}
+
+.hero__links {
+  animation: fadeUp 0.7s ease 0.45s both;
+}
+
 /* ─── Buttons ─────────────────────────────────────────────────────────────────── */
 .btn {
   display: inline-block;
