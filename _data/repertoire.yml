@@ -10,6 +10,70 @@
   status: Rehearsed
   group: SCM Symphony Orchestra
 
+- composer: Felix Mendelssohn
+  work: Symphony No. 4 "Italian" in A major
+  category: Orchestral
+  last_conducted: 2026
+  birth_year: 1809
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+
+- composer: Felix Mendelssohn
+  work: The Hebrides Overture
+  category: Orchestral
+  last_conducted: 2026
+  birth_year: 1809
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+
+- composer: Gioachino Rossini
+  work: The Italian Girl in Algiers Overture
+  category: Orchestral
+  last_conducted: 2026
+  birth_year: 1792
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+
+- composer: Johannes Brahms
+  work: Academic Festival Overture
+  category: Orchestral
+  last_conducted: 2026
+  birth_year: 1833
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+
+- composer: Johannes Brahms
+  work: German Requiem, Op. 45
+  category: Orchestral
+  last_conducted: 2026
+  birth_year: 1833
+  status: Rehearsed
+  group: Sydney Philharmonia Choirs Festival Chorus
+
+- composer: Wolfgang Amadeus Mozart
+  work: Symphony No. 41 "Jupiter" in C major, K. 551
+  category: Orchestral
+  last_conducted: 2025
+  birth_year: 1756
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+
+- composer: Ludwig van Beethoven
+  work: Symphony No. 9 in D minor, Op. 125 "Choral"
+  category: Orchestral
+  last_conducted: 2025
+  birth_year: 1770
+  status: Rehearsed
+  group: Sydney Philharmonia Choirs Symphony Chorus
+
+- composer: Michael Tippett
+  work: A Child of Our Time
+  category: Orchestral
+  last_conducted: 2025
+  birth_year: 1905
+  status: Rehearsed
+  group: Sydney Philharmonia Choirs Symphony Chorus
+
 - composer: Steve Reich
   work: Drumming
   category: Chamber
@@ -149,6 +213,22 @@
   last_conducted: 2023
 
 - composer: Percy Grainger
+  work: Shepherd's Hey
+  category: Wind Band
+  birth_year: 1882
+  status: Performed
+  group: SCM Wind Symphony
+  last_conducted: 2025
+
+- composer: Jayne Groves and Matt Moore
+  work: Nellie
+  category: Wind Band
+  birth_year: 1972 # approx
+  status: Performed
+  group: SCM Wind Symphony
+  last_conducted: 2025
+
+- composer: Percy Grainger
   work: Lincolnshire Posy
   category: Wind Band
   birth_year: 1882
@@ -173,7 +253,7 @@
   last_conducted: 2022
 
 - composer: Jean Sibelius
-  work: Andante Festivo (orch)
+  work: Andante Festivo
   category: Orchestral
   birth_year: 1865
   status: Performed
@@ -181,7 +261,7 @@
   last_conducted: 2019
 
 - composer: Gustav Holst
-  work: St. Paul's Suite (orch)
+  work: St. Paul's Suite 
   category: Orchestral
   birth_year: 1874
   status: Performed
@@ -189,7 +269,7 @@
   last_conducted: 2019
 
 - composer: Joseph Haydn
-  work: Symphony No. 104 (orch)
+  work: Symphony No. 104
   category: Orchestral
   birth_year: 1732
   status: Performed
@@ -197,7 +277,7 @@
   last_conducted: 2019
 
 - composer: Franz Schubert
-  work: Symphony No. 5 (orch)
+  work: Symphony No. 5
   category: Orchestral
   birth_year: 1797
   status: Performed
@@ -205,25 +285,25 @@
   last_conducted: 2019
 
 - composer: Antonio Vivaldi
-  work: Gloria (orch)
+  work: Gloria
   category: Orchestral
   birth_year: 1678
   status: Studied
 
 - composer: Ludwig Van Beethoven
-  work: Overture to Coriolanus (orch)
+  work: Overture to Coriolanus
   category: Orchestral
   birth_year: 1770
   status: Studied
 
 - composer: Wolfgang Amadeus Mozart
-  work: Overture to The Magic Flute (orch)
+  work: Overture to The Magic Flute
   category: Orchestral
   birth_year: 1756
   status: Studied
 
 - composer: Ludwig Van Beethoven
-  work: Symphony No. 1 (orch)
+  work: Symphony No. 1
   category: Orchestral
   birth_year: 1770
   status: Studied
