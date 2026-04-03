@@ -42,6 +42,23 @@
   status: Rehearsed
   group: SCM Symphony Orchestra
 
+
+- composer: Johannes Brahms
+  work: Hungarian Dance No. 1
+  category: Orchestral
+  last_conducted: 2023
+  birth_year: 1833
+  status: Rehearsed
+  group: The Beecroft Orchestra
+
+- composer: Franz Schubert
+  work: Symphony No. 7 "Unfinished" in B minor
+  category: Orchestral
+  birth_year: 1797
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+  last_conducted: 2025
+
 - composer: Johannes Brahms
   work: German Requiem, Op. 45
   category: Orchestral
@@ -196,6 +213,22 @@
   group: NSSWE SWE
   last_conducted: 2019, 2024
 
+- composer: Leonard Bernstein / Trans. Lavender
+  work: Symphonic Dances from "West Side Story"
+  category: Wind Band
+  birth_year: 1918
+  status: Performed
+  group: NSSWE SWE
+  last_conducted: 2023
+
+- composer: Johan De Meij
+  work: Symphony No. 1 "The Lord of the Rings"
+  category: Wind Band
+  birth_year: 1953
+  status: Rehearsed
+  group: NSSWE SWE
+  last_conducted: 2025
+
 - composer: John Mackey
   work: Sheltering Sky
   category: Wind Band
@@ -235,6 +268,14 @@
   status: Rehearsed
   group: SCM Wind Symphony
   last_conducted: 2025
+
+- composer: Katia Beaugeais
+  work: Stronger Together *(World Premiere)*
+  category: Wind Band
+  birth_year: 1976
+  status: Premiered
+  group: PHHS CB1
+  last_conducted: 2024
 
 - composer: Percy Grainger
   work: Lincolnshire Posy
@@ -315,6 +356,14 @@
   category: Orchestral
   birth_year: 1770
   status: Studied
+
+- composer: Jacques Offenbach
+  work: Orpheus in the Underworld
+  category: Musical Theatre
+  birth_year: 1819
+  status: Rehearsed
+  group: SCM Opera, Assistant Conductor
+  last_conducted: 2025
 
 - composer: Laurence O'Keefe and Nell Benjamin
   work: Legally Blonde
