@@ -543,9 +543,9 @@ section + section { border-top: 1px solid var(--rule); }
   inset: 0;
   background: linear-gradient(
     to right,
-    rgba(10, 20, 40, 0.75) 0%,
-    rgba(10, 20, 40, 0.45) 55%,
-    rgba(10, 20, 40, 0.1) 100%
+    rgba(10, 20, 40, 0.5) 0%,
+    rgba(10, 20, 40, 0.2) 55%,
+    rgba(10, 20, 40, 0.0) 100%
   );
   display: flex;
   align-items: flex-end;
