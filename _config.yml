@@ -24,3 +24,6 @@ exclude:
   - README.md
   - node_modules
   - vendor
+
+plugins:
+  - jekyll-sitemap
