@@ -13,6 +13,7 @@ title: About
 <section>
   <div class="container--wide">
   <div class="about__inner">
+  <img src="{{ '/assets/images/BenHeadshot.jpg' | relative_url }}" alt="Ben Perche" class="about__headshot">
     <div class="bio__body" markdown="1">
 Ben is a new generation conductor passionate about new music and music education. 
 
@@ -29,7 +30,6 @@ Placeholder: [Training, formative experiences, ensembles you've worked with, etc
 Placeholder: [Anything about your philosophy, interests, or future directions.]
 </p> -->
 </div>
-    <img src="{{ '/assets/images/BenHeadshot.jpg' | relative_url }}" alt="Ben Perche" class="about__headshot">
   </div>
   </div>
 </section>
