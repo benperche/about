@@ -83,9 +83,6 @@ title: Repertoire
         {% endfor %}
       </ul>
     </div>
-          {% endfor %}
-        </ul>
-      </div>
       {% endif %}
     {% endfor %}
 
