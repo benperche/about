@@ -13,7 +13,7 @@ title: About
 <section>
   <div class="container">
   <div class="about__inner">
-    <div class="bio__body">
+    <div class="bio__body" markdown="1">
        Ben is a new generation conductor passionate about new music and music education. 
        
        Ben has directed and organised ambitious performances, including György Ligeti’s *Kammerkonzert für 13 Instrumentalisten* at the Sydney Conservatorium, Steve Reich’s *Drumming* with students from Eastern Michigan University in Ypsilanti (Michigan) in 2025, and musicals such as Legally Blonde with Pennant Hills High School. As part of his work with NSSWE, Ben spearheaded an international Wind Ensemble Gala concert featuring the esteemed Tokyo Takanawandai Wind Orchestra at The Concourse in Chatswood. Ben is the Music Director and Conductor of *Musique Courante*, a new project ensemble dedicated to performing underplayed works from the 20th and 21st centuries.

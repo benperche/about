@@ -569,9 +569,15 @@ section + section { border-top: 1px solid var(--rule); }
     grid-template-columns: 1fr;
   }
   .about__headshot {
-    width: 200px;
-    position: static;
-  }
+  width: 100%;
+  max-width: 280px;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: var(--radius);
+  position: sticky;
+  top: calc(var(--nav-h) + 2rem);
+}
 }
 
 /* ─── Utility ─────────────────────────────────────────────────────────────────── */
