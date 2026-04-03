@@ -1,0 +1,63 @@
+# Repertoire list for Ben Perche
+# To add a work: copy an existing entry, change the fields, and push to GitHub.
+# Categories: Orchestral, Chamber, Choral, Opera, Contemporary, Wind Band
+
+- composer: Ludwig van Beethoven
+  work: Symphony No. 7 in A major, Op. 92
+  category: Orchestral
+
+- composer: Johannes Brahms
+  work: Symphony No. 2 in D major, Op. 73
+  category: Orchestral
+
+- composer: Maurice Ravel
+  work: La Valse
+  category: Orchestral
+
+- composer: Dmitri Shostakovich
+  work: Symphony No. 5 in D minor, Op. 47
+  category: Orchestral
+
+- composer: Caroline Shaw
+  work: Partita for 8 Voices
+  category: Contemporary
+
+- composer: Brett Dean
+  work: Pastoral Symphony
+  category: Contemporary
+
+- composer: Anna Clyne
+  work: This Midnight Hour
+  category: Contemporary
+
+- composer: György Ligeti
+  work: Lontano
+  category: Contemporary
+
+- composer: Wolfgang Amadeus Mozart
+  work: Requiem in D minor, K. 626
+  category: Choral
+
+- composer: Johann Sebastian Bach
+  work: Mass in B minor, BWV 232
+  category: Choral
+
+- composer: Benjamin Britten
+  work: War Requiem, Op. 66
+  category: Choral
+
+- composer: Franz Schubert
+  work: String Quintet in C major, D. 956
+  category: Chamber
+
+- composer: Béla Bartók
+  work: String Quartet No. 4
+  category: Chamber
+
+- composer: Percy Grainger
+  work: Irish Tune from County Derry
+  category: Wind Band
+
+- composer: David Maslanka
+  work: Symphony No. 4
+  category: Wind Band

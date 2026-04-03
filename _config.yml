@@ -1,0 +1,25 @@
+title: Ben Perche
+tagline: Conductor — Shaping Sound, Championing New Voices
+description: Conductor based in Australia, with a broad repertoire and a commitment to contemporary music.
+baseurl: "/about"
+url: "https://benperche.github.io"
+
+author:
+  name: Ben Perche
+  email: benperche2@gmail.com  
+
+# Social links — comment out any you don't want shown
+social:
+  # twitter: yourhandle
+  # instagram: yourhandle
+  # linkedin: yourhandle
+  # youtube: yourchannelid
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
