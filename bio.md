@@ -11,7 +11,7 @@ title: About
 </div>
 
 <section>
-  <div class="container">
+  <div class="container--wide">
   <div class="about__inner">
     <div class="bio__body" markdown="1">
 Ben is a new generation conductor passionate about new music and music education. 
