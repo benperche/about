@@ -162,8 +162,8 @@ section + section { border-top: 1px solid var(--rule); }
 
 /* ─── Hero ───────────────────────────────────────────────────────────────────── */
 .hero {
-  padding: 7rem 0 6rem;
-  border-bottom: 1px solid var(--rule);
+  padding: 0;
+  border-bottom: none;
 }
 
 .hero__inner {
