@@ -18,11 +18,9 @@ title: Projects
         <p class="project-card__label">Interactive Tool</p>
         <h2 class="project-card__title">Harmonicon</h2>
         <p class="project-card__desc">
-          A harmony calculator for exploring chord relationships, voice leading,
-          and harmonic analysis. Built for musicians who think carefully about sound.
+          A harmony calculator for exploring chord relationships, and harmonic analysis using Roman Numerals and Figured Bass
         </p>
-        <!-- Update this href with the actual Harmonicon URL -->
-        <a href="#" class="project-card__link">Open Harmonicon →</a>
+        <a href="https://benperche.github.io/harmonicon/" class="project-card__link">Open Harmonicon →</a>
       </div>
 
       <div class="project-card">
@@ -30,14 +28,19 @@ title: Projects
         <h2 class="project-card__title">Band Admin Handbook</h2>
         <p class="project-card__desc">
           A practical guide to the administrative and organisational side of running
-          an ensemble — written for conductors and ensemble managers who want to
-          spend less time on paperwork and more time making music.
+          a school ensemble — written for parents, conductors and volunteers who are looking for help navigating the complexities of a school program.
         </p>
-        <!-- Update this href with the actual handbook URL -->
-        <a href="#" class="project-card__link">Read the handbook →</a>
+        <a href="https://bit.ly/bandadminhandbook" class="project-card__link">Check out the handbook →</a>
       </div>
 
-      <!-- Add more project cards here following the same pattern -->
+      <div class="project-card">
+        <p class="project-card__label">Band Admin Software</p>
+        <h2 class="project-card__title">BandForté</h2>
+        <p class="project-card__desc">
+          Web software designed especially for running music programs.
+        </p>
+        <a href="https://www.bandforte.com.au" class="project-card__link">Check out Bandforté →</a>
+      </div>
 
     </div>
   </div>
