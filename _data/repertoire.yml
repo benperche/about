@@ -224,7 +224,15 @@
   work: Nellie
   category: Wind Band
   birth_year: 1972 # approx
-  status: Performed
+  status: Rehearsed
+  group: SCM Wind Symphony
+  last_conducted: 2025
+
+- composer: Gordon Jacob
+  work: An Original Suite
+  category: Wind Band
+  birth_year: 1895 # approx
+  status: Rehearsed
   group: SCM Wind Symphony
   last_conducted: 2025
 
