@@ -5,7 +5,7 @@
 - composer: Ludwig van Beethoven
   work: Symphony No. 7 in A major, Op. 92
   category: Orchestral
-  last_performed: 2026
+  last_conducted: 2026
   birth_year: 1770
   status: Rehearsed
   group: SCM Symphony Orchestra
@@ -16,7 +16,7 @@
   birth_year: 1936
   status: Performed
   group: 
-  last_performed: 2025
+  last_conducted: 2025
 
 - composer: Nico Muhly
   work: In As Long As It Takes
@@ -24,7 +24,7 @@
   birth_year: 1981
   status: Performed
   group: Musique Courante
-  last_performed: 2026
+  last_conducted: 2026
 
 - composer: György Ligeti
   work: Kammerkonzert für 13 Instrumentalisten
@@ -32,7 +32,7 @@
   birth_year: 1923
   status: Performed
   group: Musique Courante
-  last_performed: 2026
+  last_conducted: 2026
 
 - composer: Elena Kats-Chernin
   work: Village Idiot
@@ -40,7 +40,7 @@
   birth_year: 1957
   status: Performed
   group: Musique Courante
-  last_performed: 2026
+  last_conducted: 2026
 
 - composer: Paul Hindemith
   work: Kammermusik No. 1, op. 24/1
@@ -48,7 +48,7 @@
   birth_year: 1895
   status: Performed
   group: Musique Courante
-  last_performed: 2026
+  last_conducted: 2026
 
 - composer: Sadel and Tucci / Arr. Krance
   work: Lola Flores
@@ -56,7 +56,7 @@
   birth_year: 1903
   status: Performed
   group: EMU Symphonic Band
-  last_performed: 2025
+  last_conducted: 2025
 
 - composer: Margaret Bonds / Arr. Ehrlich
   work: Spiritual Suite
@@ -64,7 +64,7 @@
   birth_year: 1913
   status: Performed
   group: EMU Wind Symphony
-  last_performed: 2025
+  last_conducted: 2025
 
 - composer: Nicole Piunno
   work: Bright Shadow Fanfare
@@ -72,7 +72,7 @@
   birth_year: 1985
   status: Performed
   group: EMU Wind Symphony
-  last_performed: 2024
+  last_conducted: 2024
 
 - composer: Alfred Reed
   work: Alleluia! Laudamus Te
@@ -80,7 +80,7 @@
   birth_year: 1921
   status: Performed
   group: EMU Wind Symphony
-  last_performed: 2024
+  last_conducted: 2024
 
 - composer: Edward Elgar / Arr. Reed
   work: Nimrod
@@ -88,7 +88,7 @@
   birth_year: 1857
   status: Performed
   group: EMU Wind Symphony
-  last_performed: 2024
+  last_conducted: 2024
 
 - composer: Gustav Mahler
   work: Symphony No. 1
@@ -114,7 +114,7 @@
   birth_year: 1945
   status: Performed
   group: ANBOC 2024
-  last_performed: 2024
+  last_conducted: 2024
 
 - composer: Gustav Holst
   work: First Suite in Eb
@@ -122,7 +122,7 @@
   birth_year: 1874
   status: Performed
   group: PHHS CB1
-  last_performed: 2019, 2024
+  last_conducted: 2019, 2024
 
 - composer: Leonard Bernstein / Arr. Grundman
   work: Overture to Candide
@@ -130,7 +130,7 @@
   birth_year: 1918
   status: Performed
   group: NSSWE SWE
-  last_performed: 2019, 2024
+  last_conducted: 2019, 2024
 
 - composer: John Mackey
   work: Sheltering Sky
@@ -138,7 +138,7 @@
   birth_year: 1973
   status: Performed
   group: NSSWE SWE
-  last_performed: 2023, 2024
+  last_conducted: 2023, 2024
 
 - composer: Percy Grainger
   work: Irish Tune from County Derry
@@ -146,7 +146,7 @@
   birth_year: 1882
   status: Performed
   group: SCM WS, NSSWE IWE
-  last_performed: 2023
+  last_conducted: 2023
 
 - composer: Percy Grainger
   work: Lincolnshire Posy
@@ -154,7 +154,7 @@
   birth_year: 1882
   status: Performed
   group: ASCI
-  last_performed: 2023
+  last_conducted: 2023
 
 - composer: Frank Ticheli
   work: Simple Gifts
@@ -162,7 +162,7 @@
   birth_year: 1958
   status: Performed
   group: ASCI
-  last_performed: 2023
+  last_conducted: 2023
 
 - composer: Gustav Holst
   work: Second Suite in F
@@ -170,7 +170,7 @@
   birth_year: 1874
   status: Performed
   group: PHHS CB1
-  last_performed: 2022
+  last_conducted: 2022
 
 - composer: Jean Sibelius
   work: Andante Festivo (orch)
@@ -178,7 +178,7 @@
   birth_year: 1865
   status: Performed
   group: MYO SS
-  last_performed: 2019
+  last_conducted: 2019
 
 - composer: Gustav Holst
   work: St. Paul's Suite (orch)
@@ -186,7 +186,7 @@
   birth_year: 1874
   status: Performed
   group: MYO SS
-  last_performed: 2019
+  last_conducted: 2019
 
 - composer: Joseph Haydn
   work: Symphony No. 104 (orch)
@@ -194,7 +194,7 @@
   birth_year: 1732
   status: Performed
   group: MYO SS
-  last_performed: 2019
+  last_conducted: 2019
 
 - composer: Franz Schubert
   work: Symphony No. 5 (orch)
@@ -202,7 +202,7 @@
   birth_year: 1797
   status: Performed
   group: MYO SS
-  last_performed: 2019
+  last_conducted: 2019
 
 - composer: Antonio Vivaldi
   work: Gloria (orch)
