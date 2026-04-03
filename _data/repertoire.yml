@@ -11,16 +11,48 @@
   group: SCM Symphony Orchestra
 
 - composer: Steve Reich
-  work: Drumming (chamber)
-  category: Orchestral
+  work: Drumming
+  category: Chamber
   birth_year: 1936
   status: Performed
   group: 
   last_performed: 2025
 
+- composer: Nico Muhly
+  work: In As Long As It Takes
+  category: Chamber
+  birth_year: 1981
+  status: Performed
+  group: Musique Courante
+  last_performed: 2026
+
+- composer: György Ligeti
+  work: Kammerkonzert für 13 Instrumentalisten
+  category: Chamber
+  birth_year: 1923
+  status: Performed
+  group: Musique Courante
+  last_performed: 2026
+
+- composer: Elena Kats-Chernin
+  work: Village Idiot
+  category: Chamber
+  birth_year: 1957
+  status: Performed
+  group: Musique Courante
+  last_performed: 2026
+
+- composer: Paul Hindemith
+  work: Kammermusik No. 1, op. 24/1
+  category: Chamber
+  birth_year: 1895
+  status: Performed
+  group: Musique Courante
+  last_performed: 2026
+
 - composer: Sadel and Tucci / Arr. Krance
   work: Lola Flores
-  category: Orchestral
+  category: Wind Band
   birth_year: 1903
   status: Performed
   group: EMU Symphonic Band
@@ -28,7 +60,7 @@
 
 - composer: Margaret Bonds / Arr. Ehrlich
   work: Spiritual Suite
-  category: Orchestral
+  category: Wind Band
   birth_year: 1913
   status: Performed
   group: EMU Wind Symphony
@@ -36,7 +68,7 @@
 
 - composer: Nicole Piunno
   work: Bright Shadow Fanfare
-  category: Orchestral
+  category: Wind Band
   birth_year: 1985
   status: Performed
   group: EMU Wind Symphony
@@ -44,7 +76,7 @@
 
 - composer: Alfred Reed
   work: Alleluia! Laudamus Te
-  category: Orchestral
+  category: Wind Band
   birth_year: 1921
   status: Performed
   group: EMU Wind Symphony
@@ -52,7 +84,7 @@
 
 - composer: Edward Elgar / Arr. Reed
   work: Nimrod
-  category: Orchestral
+  category: Wind Band
   birth_year: 1857
   status: Performed
   group: EMU Wind Symphony
@@ -78,7 +110,7 @@
 
 - composer: Anne McGinty
   work: The Red Balloon
-  category: Orchestral
+  category: Wind Band
   birth_year: 1945
   status: Performed
   group: ANBOC 2024
@@ -86,7 +118,7 @@
 
 - composer: Gustav Holst
   work: First Suite in Eb
-  category: Orchestral
+  category: Wind Band
   birth_year: 1874
   status: Performed
   group: PHHS CB1
@@ -94,7 +126,7 @@
 
 - composer: Leonard Bernstein / Arr. Grundman
   work: Overture to Candide
-  category: Orchestral
+  category: Wind Band
   birth_year: 1918
   status: Performed
   group: NSSWE SWE
@@ -102,7 +134,7 @@
 
 - composer: John Mackey
   work: Sheltering Sky
-  category: Orchestral
+  category: Wind Band
   birth_year: 1973
   status: Performed
   group: NSSWE SWE
@@ -110,7 +142,7 @@
 
 - composer: Percy Grainger
   work: Irish Tune from County Derry
-  category: Orchestral
+  category: Wind Band
   birth_year: 1882
   status: Performed
   group: SCM WS, NSSWE IWE
@@ -118,7 +150,7 @@
 
 - composer: Percy Grainger
   work: Lincolnshire Posy
-  category: Orchestral
+  category: Wind Band
   birth_year: 1882
   status: Performed
   group: ASCI
@@ -126,7 +158,7 @@
 
 - composer: Frank Ticheli
   work: Simple Gifts
-  category: Orchestral
+  category: Wind Band
   birth_year: 1958
   status: Performed
   group: ASCI
@@ -134,7 +166,7 @@
 
 - composer: Gustav Holst
   work: Second Suite in F
-  category: Orchestral
+  category: Wind Band
   birth_year: 1874
   status: Performed
   group: PHHS CB1
