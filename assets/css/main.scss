@@ -380,34 +380,47 @@ section + section { border-top: 1px solid var(--rule); }
 .repertoire__list {
   list-style: none;
 }
-
-.repertoire__year {
-  margin-left: auto;
-  font-family: var(--font-ui);
-  font-size: 0.82rem;
-  color: var(--muted);
-}
-
 .repertoire__item {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
   padding: 0.6rem 0;
   border-bottom: 1px solid var(--bg-off);
-  font-size: 0.97rem;
 }
 
 .repertoire__item:last-child { border-bottom: none; }
 
 .repertoire__composer {
   font-weight: 600;
-  min-width: 200px;
   color: var(--ink);
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .repertoire__work {
   color: var(--mid);
   font-style: italic;
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 0.5rem;
+}
+
+.repertoire__group {
+  font-size: 0.82rem;
+  color: var(--muted);
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 0.15rem;
+}
+
+.repertoire__year {
+  margin-left: auto;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--muted);
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
 }
 
 .repertoire__section-title {

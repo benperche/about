@@ -72,7 +72,8 @@ title: Repertoire
       {% for work in works %}
             <li class="repertoire__item">
               <span class="repertoire__composer">{{ work.composer }}</span>
-              <span class="repertoire__work">{{ work.work }}{% if work.group %} — {{ work.group }}{% endif %}</span>
+              <span class="repertoire__work">{{ work.work }}</span>
+              {% if work.group %}<span class="repertoire__group">{{ work.group }}</span>{% endif %}
               {% if work.last_conducted %}<span class="repertoire__year">{{ work.last_conducted }}</span>{% endif %}
             </li>
             {% endfor %}
