@@ -12,7 +12,7 @@ title: Home
         <h1 class="hero__name">Ben Perche</h1>
         <p class="hero__tagline">{{ site.tagline }}</p>
         <div class="hero__links">
-          <a href="{{ '/about/' | relative_url }}" class="btn btn--primary">About</a>
+          <a href="{{ '/bio/' | relative_url }}" class="btn btn--primary">Bio</a>
           <a href="{{ '/repertoire/' | relative_url }}" class="btn btn--outline btn--outline-white">Repertoire</a>
         </div>
       </div>
@@ -28,7 +28,7 @@ title: Home
       <p>
         Ben Perche is a new generation Australian conductor with a broad repertoire spanning orchestral, choral, wind band and chamber music, with a particular interest in new music.
       </p>
-      <p><a href="{{ '/about/' | relative_url }}">Read full bio →</a></p>
+      <p><a href="{{ '/bio/' | relative_url }}">Read full bio →</a></p>
     </div>
   </div>
 </section>
