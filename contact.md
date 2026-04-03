@@ -22,14 +22,13 @@ title: Contact
       <a href="mailto:benperche2@gmail.com" class="contact__email">ben@example.com</a>
 
       <!-- Uncomment and fill in whichever social links you want to show -->
-      <!--
+      
       <ul class="social-links">
-        <li><a href="https://twitter.com/yourhandle" target="_blank" rel="noopener">Twitter / X</a></li>
-        <li><a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a></li>
-        <li><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.linkedin.com/in/ben-perche-bb199a1a3/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.youtube.com/channel/UCq9RC5spTKDTUyw67Oher-A" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.facebook.com/ben.perche.3" target="_blank" rel="noopener">Facebook</a></li>
       </ul>
-      -->
+     
     </div>
   </div>
 </section>

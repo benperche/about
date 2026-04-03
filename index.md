@@ -41,3 +41,14 @@ title: Home
     <a href="{{ '/projects/' | relative_url }}" class="btn btn--outline">View projects</a>
   </div>
 </section>
+
+
+<section>
+  <div class="container">
+    <ul class="social-links">
+        <li><a href="https://www.linkedin.com/in/ben-perche-bb199a1a3/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.youtube.com/channel/UCq9RC5spTKDTUyw67Oher-A" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.facebook.com/ben.perche.3" target="_blank" rel="noopener">Facebook</a></li>
+      </ul>
+  </div>
+</section>

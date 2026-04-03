@@ -13,7 +13,7 @@ title: Repertoire
 <section>
   <div class="container">
     <p class="repertoire__intro">
-      A selection of works conducted. Where applicable, the group is listed below each piece with the year the piece was worked on.
+      A selection of works conducted. Where applicable, the group is listed below each piece with the year the piece was worked on. Pieces listed in chronological order of composer birth date.
     </p>
 
   {% assign main_categories = "Orchestral,Chamber,Choral,Opera,Contemporary" | split: "," %}
