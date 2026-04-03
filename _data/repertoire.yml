@@ -5,59 +5,193 @@
 - composer: Ludwig van Beethoven
   work: Symphony No. 7 in A major, Op. 92
   category: Orchestral
+  last_performed: 2026
+  birth_year: 1770
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+
+- composer: Steve Reich
+  work: Drumming (chamber)
+  category: Orchestral
+  birth_year: 1936
+  status: Performed
+  group: 
+  last_performed: 2025
+
+- composer: Sadel and Tucci / Arr. Krance
+  work: Lola Flores
+  category: Orchestral
+  birth_year: 1903
+  status: Performed
+  group: EMU Symphonic Band
+  last_performed: 2025
+
+- composer: Margaret Bonds / Arr. Ehrlich
+  work: Spiritual Suite
+  category: Orchestral
+  birth_year: 1913
+  status: Performed
+  group: EMU Wind Symphony
+  last_performed: 2025
+
+- composer: Nicole Piunno
+  work: Bright Shadow Fanfare
+  category: Orchestral
+  birth_year: 1985
+  status: Performed
+  group: EMU Wind Symphony
+  last_performed: 2024
+
+- composer: Alfred Reed
+  work: Alleluia! Laudamus Te
+  category: Orchestral
+  birth_year: 1921
+  status: Performed
+  group: EMU Wind Symphony
+  last_performed: 2024
+
+- composer: Edward Elgar / Arr. Reed
+  work: Nimrod
+  category: Orchestral
+  birth_year: 1857
+  status: Performed
+  group: EMU Wind Symphony
+  last_performed: 2024
+
+- composer: Gustav Mahler
+  work: Symphony No. 1
+  category: Orchestral
+  birth_year: 1860
+  status: Studied
 
 - composer: Johannes Brahms
-  work: Symphony No. 2 in D major, Op. 73
+  work: Symphony No. 4
   category: Orchestral
-
-- composer: Maurice Ravel
-  work: La Valse
-  category: Orchestral
-
-- composer: Dmitri Shostakovich
-  work: Symphony No. 5 in D minor, Op. 47
-  category: Orchestral
-
-- composer: Caroline Shaw
-  work: Partita for 8 Voices
-  category: Contemporary
-
-- composer: Brett Dean
-  work: Pastoral Symphony
-  category: Contemporary
-
-- composer: Anna Clyne
-  work: This Midnight Hour
-  category: Contemporary
-
-- composer: György Ligeti
-  work: Lontano
-  category: Contemporary
+  birth_year: 1833
+  status: Studied
 
 - composer: Wolfgang Amadeus Mozart
-  work: Requiem in D minor, K. 626
-  category: Choral
+  work: Requiem in D minor
+  category: Orchestral
+  birth_year: 1756
+  status: Studied
 
-- composer: Johann Sebastian Bach
-  work: Mass in B minor, BWV 232
-  category: Choral
+- composer: Anne McGinty
+  work: The Red Balloon
+  category: Orchestral
+  birth_year: 1945
+  status: Performed
+  group: ANBOC 2024
+  last_performed: 2024
 
-- composer: Benjamin Britten
-  work: War Requiem, Op. 66
-  category: Choral
+- composer: Gustav Holst
+  work: First Suite in Eb
+  category: Orchestral
+  birth_year: 1874
+  status: Performed
+  group: PHHS CB1
+  last_performed: 2019, 2024
 
-- composer: Franz Schubert
-  work: String Quintet in C major, D. 956
-  category: Chamber
+- composer: Leonard Bernstein / Arr. Grundman
+  work: Overture to Candide
+  category: Orchestral
+  birth_year: 1918
+  status: Performed
+  group: NSSWE SWE
+  last_performed: 2019, 2024
 
-- composer: Béla Bartók
-  work: String Quartet No. 4
-  category: Chamber
+- composer: John Mackey
+  work: Sheltering Sky
+  category: Orchestral
+  birth_year: 1973
+  status: Performed
+  group: NSSWE SWE
+  last_performed: 2023, 2024
 
 - composer: Percy Grainger
   work: Irish Tune from County Derry
-  category: Wind Band
+  category: Orchestral
+  birth_year: 1882
+  status: Performed
+  group: SCM WS, NSSWE IWE
+  last_performed: 2023
 
-- composer: David Maslanka
-  work: Symphony No. 4
-  category: Wind Band
+- composer: Percy Grainger
+  work: Lincolnshire Posy
+  category: Orchestral
+  birth_year: 1882
+  status: Performed
+  group: ASCI
+  last_performed: 2023
+
+- composer: Frank Ticheli
+  work: Simple Gifts
+  category: Orchestral
+  birth_year: 1958
+  status: Performed
+  group: ASCI
+  last_performed: 2023
+
+- composer: Gustav Holst
+  work: Second Suite in F
+  category: Orchestral
+  birth_year: 1874
+  status: Performed
+  group: PHHS CB1
+  last_performed: 2022
+
+- composer: Jean Sibelius
+  work: Andante Festivo (orch)
+  category: Orchestral
+  birth_year: 1865
+  status: Performed
+  group: MYO SS
+  last_performed: 2019
+
+- composer: Gustav Holst
+  work: St. Paul's Suite (orch)
+  category: Orchestral
+  birth_year: 1874
+  status: Performed
+  group: MYO SS
+  last_performed: 2019
+
+- composer: Joseph Haydn
+  work: Symphony No. 104 (orch)
+  category: Orchestral
+  birth_year: 1732
+  status: Performed
+  group: MYO SS
+  last_performed: 2019
+
+- composer: Franz Schubert
+  work: Symphony No. 5 (orch)
+  category: Orchestral
+  birth_year: 1797
+  status: Performed
+  group: MYO SS
+  last_performed: 2019
+
+- composer: Antonio Vivaldi
+  work: Gloria (orch)
+  category: Orchestral
+  birth_year: 1678
+  status: Studied
+
+- composer: Ludwig Van Beethoven
+  work: Overture to Coriolanus (orch)
+  category: Orchestral
+  birth_year: 1770
+  status: Studied
+
+- composer: Wolfgang Amadeus Mozart
+  work: Overture to The Magic Flute (orch)
+  category: Orchestral
+  birth_year: 1756
+  status: Studied
+
+- composer: Ludwig Van Beethoven
+  work: Symphony No. 1 (orch)
+  category: Orchestral
+  birth_year: 1770
+  status: Studied

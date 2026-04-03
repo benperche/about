@@ -381,6 +381,13 @@ section + section { border-top: 1px solid var(--rule); }
   list-style: none;
 }
 
+.repertoire__year {
+  margin-left: auto;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
 .repertoire__item {
   display: flex;
   align-items: baseline;
@@ -401,6 +408,18 @@ section + section { border-top: 1px solid var(--rule); }
 .repertoire__work {
   color: var(--mid);
   font-style: italic;
+}
+
+.repertoire__section-title {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--navy);
+  font-size: 1.4rem;
+}
+
+.repertoire__section-title:first-of-type {
+  margin-top: 0;
 }
 
 @media (max-width: 600px) {
