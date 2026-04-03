@@ -646,6 +646,7 @@ section + section { border-top: 1px solid var(--rule); }
   .about__headshot {
     position: sticky;
     top: calc(var(--nav-h) + 2rem);
+    align-self: start;
   }
 }
 
@@ -656,8 +657,10 @@ section + section { border-top: 1px solid var(--rule); }
   .about__headshot {
     order: -1;
     width: 180px;
+    max-height: none;
     position: static;
     margin: 0 auto;
+    display: block;
   }
 }
 
