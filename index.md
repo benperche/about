@@ -4,18 +4,18 @@ title: Home
 ---
 
 <div class="hero">
-  <div class="container--wide">
-    <div class="hero__inner">
-      <div class="hero__text">
+  <div class="hero__banner">
+    <img src="{{ '/assets/images/BenRecital2026.png' | relative_url }}" alt="Ben Perche conducting" class="hero__banner-img">
+    <div class="hero__banner-overlay">
+      <div class="hero__banner-text">
         <p class="hero__eyebrow">Conductor</p>
         <h1 class="hero__name">Ben Perche</h1>
         <p class="hero__tagline">{{ site.tagline }}</p>
         <div class="hero__links">
           <a href="{{ '/about/' | relative_url }}" class="btn btn--primary">About</a>
-          <a href="{{ '/repertoire/' | relative_url }}" class="btn btn--outline">Repertoire</a>
+          <a href="{{ '/repertoire/' | relative_url }}" class="btn btn--outline btn--outline-white">Repertoire</a>
         </div>
       </div>
-      <img src="{{ '/assets/images/BenRecital2026.png' | relative_url }}" alt="Ben Perche" class="hero__image">    
     </div>
   </div>
 </div>

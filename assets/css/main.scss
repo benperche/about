@@ -490,6 +490,65 @@ section + section { border-top: 1px solid var(--rule); }
   .footer { flex-direction: column; text-align: center; }
 }
 
+/* ─── Landscape Hero Banner ──────────────────────────────────────────────────── */
+.hero__banner {
+  position: relative;
+  width: 100%;
+  height: clamp(380px, 55vw, 620px);
+  overflow: hidden;
+}
+
+.hero__banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.hero__banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(10, 20, 40, 0.75) 0%,
+    rgba(10, 20, 40, 0.45) 55%,
+    rgba(10, 20, 40, 0.1) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+  padding: 3.5rem 3rem;
+}
+
+.hero__banner-text { max-width: 560px; }
+
+.hero__banner-text .hero__eyebrow { color: rgba(255,255,255,0.7); }
+.hero__banner-text .hero__eyebrow::before { background: rgba(255,255,255,0.5); }
+.hero__banner-text .hero__name { color: white; }
+.hero__banner-text .hero__tagline { color: rgba(255,255,255,0.8); }
+
+.btn--outline-white {
+  border-color: rgba(255,255,255,0.6);
+  color: white;
+}
+.btn--outline-white:hover {
+  background: white;
+  color: var(--navy);
+  border-color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .hero__banner-overlay {
+    padding: 2rem 1.5rem;
+    background: linear-gradient(
+      to top,
+      rgba(10, 20, 40, 0.85) 0%,
+      rgba(10, 20, 40, 0.3) 100%
+    );
+  }
+}
+
 /* ─── Utility ─────────────────────────────────────────────────────────────────── */
 .text-muted { color: var(--muted); }
 .mt-1 { margin-top: 0.5rem; }
