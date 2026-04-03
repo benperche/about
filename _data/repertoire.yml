@@ -227,3 +227,43 @@
   category: Orchestral
   birth_year: 1770
   status: Studied
+
+- composer: Laurence O'Keefe and Nell Benjamin
+  work: Legally Blonde
+  category: Musical Theatre
+  birth_year: 1969
+  status: Performed
+  group: PHHS, MD
+  last_conducted: 2024
+
+- composer: Allan Knee
+  work: Little Women
+  category: Musical Theatre
+  birth_year: 1970
+  status: Performed
+  group: PHHS, MD
+  last_conducted: 2023
+
+- composer: Jeanine Tesori
+  work: Shrek The Musical
+  category: Musical Theatre
+  birth_year: 1971
+  status: Performed
+  group: PHHS, Conductor
+  last_conducted: 2022
+
+- composer: Cyndi Lauper
+  work: Kinky Boots
+  category: Musical Theatre
+  birth_year: 1972
+  status: Performed
+  group: Noteable Theatre Co, Assistant MD
+  last_conducted: 2023
+
+- composer: Robert Lopez and Jeff Marx
+  work: Avenue Q
+  category: Musical Theatre
+  birth_year: 1973
+  status: Performed
+  group: Noteable Theatre Co, Assistant MD
+  last_conducted: 2022
