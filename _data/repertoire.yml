@@ -213,6 +213,22 @@
   group: NSSWE SWE
   last_conducted: 2019, 2024
 
+- composer: Leonard Bernstein / Arr. Grundman
+  work: Slava
+  category: Wind Band
+  birth_year: 1918
+  status: Rehearsed
+  group: SCM WS
+  last_conducted: 2026
+
+- composer: Boris Kozhevnikov / Ed. John R. Bourgeois
+  work: Symphony No. 3 "Slavanskaya"
+  category: Wind Band
+  birth_year: 1906
+  status: Rehearsed
+  group: SCM WS
+  last_conducted: 2026
+
 - composer: Leonard Bernstein / Trans. Lavender
   work: Symphonic Dances from "West Side Story"
   category: Wind Band
@@ -270,7 +286,7 @@
   last_conducted: 2025
 
 - composer: Katia Beaugeais
-  work: Stronger Together *(World Premiere)*
+  work: Stronger Together *World Premiere*
   category: Wind Band
   birth_year: 1976
   status: Premiered
