@@ -34,6 +34,14 @@
   status: Rehearsed
   group: SCM Symphony Orchestra
 
+- composer: Giuseppe Verdi
+  work: La Forza del Destino Overture (The Force of Destiny)
+  category: Orchestral
+  last_conducted: 2026
+  birth_year: 1813
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+
 - composer: Johannes Brahms
   work: Academic Festival Overture
   category: Orchestral
@@ -41,7 +49,6 @@
   birth_year: 1833
   status: Rehearsed
   group: SCM Symphony Orchestra
-
 
 - composer: Johannes Brahms
   work: Hungarian Dance No. 1
@@ -237,6 +244,38 @@
   group: NSSWE SWE
   last_conducted: 2023
 
+- composer: Eric Whitacre
+  work: October
+  category: Wind Band
+  birth_year: 1970
+  status: Performed
+  group: NSSWE SWE
+  last_conducted: 2021
+
+- composer: Eric Whitacre
+  work: Ghost Train
+  category: Wind Band
+  birth_year: 1970
+  status: Rehearsed
+  group: NSSWE SWE
+  last_conducted: 2021
+
+- composer: Eric Whitacre
+  work: Equus
+  category: Wind Band
+  birth_year: 1970
+  status: Rehearsed
+  group: NSSWE SWE
+  last_conducted: 2022
+
+- composer: Eric Whitacre
+  work: Godzilla Eats Las Vegas!
+  category: Wind Band
+  birth_year: 1970
+  status: Rehearsed
+  group: NSSWE SWE
+  last_conducted: 2023
+
 - composer: Johan De Meij
   work: Symphony No. 1 "The Lord of the Rings"
   category: Wind Band
@@ -371,6 +410,12 @@
   work: Symphony No. 1
   category: Orchestral
   birth_year: 1770
+  status: Studied
+
+- composer: Gustav Holst
+  work: The Planets Suite
+  category: Orchestral
+  birth_year: 1874
   status: Studied
 
 - composer: Jacques Offenbach
