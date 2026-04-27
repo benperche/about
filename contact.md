@@ -19,7 +19,7 @@ title: Contact
       </p>
 
       <!-- Update with your actual email address -->
-      <a href="mailto:benperche2@gmail.com" class="contact__email">ben@example.com</a>
+      <a href="mailto:benperche2@gmail.com" class="contact__email">benperche2@gmail.com</a>
 
       <!-- Uncomment and fill in whichever social links you want to show -->
       
