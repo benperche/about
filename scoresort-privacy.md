@@ -10,8 +10,9 @@ title: ScoreSort Privacy Policy
 </div>
 
 <section>
-  <div class="container--wide">
-  # Privacy Policy for ScoreSort
+  <div class="container--wide" markdown="1">
+
+# Privacy Policy for ScoreSort
 
 **Last updated: April 2026**
 
