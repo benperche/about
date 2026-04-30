@@ -15,6 +15,16 @@ title: Projects
     <div class="projects__grid">
 
   <div class="project-card">
+    <p class="project-card__label">macOS App</p>
+    <h2 class="project-card__title">ScoreSort</h2>
+    <p class="project-card__desc">
+      A macOS app for sorting music PDF parts by instrument.
+      Pay what you want — download free and contribute if it's useful.
+    </p>
+    <a href="/scoresort/" class="project-card__link">Download ScoreSort →</a>
+  </div>
+
+  <div class="project-card">
     <p class="project-card__label">Handbook</p>
     <h2 class="project-card__title">Band Admin Handbook</h2>
     <p class="project-card__desc">

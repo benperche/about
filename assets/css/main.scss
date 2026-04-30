@@ -664,6 +664,90 @@ section + section { border-top: 1px solid var(--rule); }
   }
 }
 
+/* ─── ScoreSort ──────────────────────────────────────────────────────────────── */
+.scoresort__tagline {
+  font-family: var(--font-head);
+  font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+  font-style: italic;
+  color: var(--navy);
+  margin-bottom: 1.5rem;
+}
+
+.scoresort__intro {
+  max-width: 680px;
+}
+
+.scoresort__actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0 1rem;
+}
+
+.scoresort__req {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+.scoresort__steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.scoresort__step {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.scoresort__step-num {
+  font-family: var(--font-head);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--rule);
+  line-height: 1;
+  flex-shrink: 0;
+  width: 2rem;
+  text-align: center;
+}
+
+.scoresort__step h3 { margin-bottom: 0.4rem; }
+
+.scoresort__pwyw {
+  background: var(--bg-off);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 3rem;
+  max-width: 600px;
+}
+
+.scoresort__pwyw-text p { margin-bottom: 1.5rem; }
+
+.scoresort__install-steps {
+  max-width: 620px;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.scoresort__install-steps li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.scoresort__gatekeeper-note {
+  max-width: 620px;
+  font-size: 0.9rem;
+  color: var(--mid);
+  background: var(--bg-off);
+  border-left: 3px solid var(--rule);
+  padding: 1rem 1.25rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
 /* ─── Utility ─────────────────────────────────────────────────────────────────── */
 .text-muted { color: var(--muted); }
 .mt-1 { margin-top: 0.5rem; }
