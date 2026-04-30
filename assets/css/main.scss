@@ -738,14 +738,118 @@ section + section { border-top: 1px solid var(--rule); }
   font-size: 1rem;
 }
 
-.scoresort__gatekeeper-note {
+.scoresort__privacy-note {
   max-width: 620px;
   font-size: 0.9rem;
   color: var(--mid);
+  margin-top: 1.25rem;
+}
+
+/* ─── Carousel ───────────────────────────────────────────────────────────────── */
+.scoresort__carousel-section {
   background: var(--bg-off);
-  border-left: 3px solid var(--rule);
-  padding: 1rem 1.25rem;
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.carousel {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.carousel__track {
+  position: relative;
+}
+
+.carousel__slide {
+  display: none;
+}
+
+.carousel__slide.active {
+  display: block;
+}
+
+.carousel__img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--rule);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.carousel__caption {
+  padding: 1.5rem 0 0.5rem;
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel__caption h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.carousel__caption p {
+  font-size: 0.95rem;
+  color: var(--mid);
+  line-height: 1.7;
+}
+
+.carousel__btn {
+  position: absolute;
+  top: calc(50% - 2.5rem); /* centre on image, not caption */
+  transform: translateY(-50%);
+  background: white;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  padding: 0;
+}
+
+.carousel__btn:hover {
+  border-color: var(--navy);
+  box-shadow: 0 4px 12px rgba(26,53,96,0.15);
+}
+
+.carousel__btn--prev { left: -1.5rem; }
+.carousel__btn--next { right: -1.5rem; }
+
+.carousel__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.carousel__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--rule);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.15s;
+}
+
+.carousel__dot.active {
+  background: var(--navy);
+}
+
+@media (max-width: 700px) {
+  .carousel__btn--prev { left: 0; }
+  .carousel__btn--next { right: 0; }
 }
 
 /* ─── Utility ─────────────────────────────────────────────────────────────────── */
