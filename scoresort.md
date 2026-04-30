@@ -27,7 +27,7 @@ description: A macOS app for working with music PDFs — combine, rename, split,
       </p>
       <div class="scoresort__actions">
         <a href="/assets/downloads/ScoreSort-1.0.dmg" class="btn btn--primary">Download for Mac</a>
-        <a href="https://ko-fi.com/YOUR_USERNAME" class="btn btn--outline" target="_blank" rel="noopener">Pay what you want →</a>
+        <a href="https://ko-fi.com/benperche" class="btn btn--outline" target="_blank" rel="noopener">Pay what you want →</a>
       </div>
       <p class="scoresort__req">Requires macOS 13 Ventura or later &nbsp;·&nbsp; Apple Silicon &amp; Intel</p>
     </div>
@@ -107,7 +107,7 @@ description: A macOS app for working with music PDFs — combine, rename, split,
           download it free and pay whatever feels right if it saves you time.
           Every contribution helps fund continued development.
         </p>
-        <a href="https://ko-fi.com/YOUR_USERNAME" class="btn btn--primary" target="_blank" rel="noopener">Support on Ko-fi</a>
+        <a href="https://ko-fi.com/benperche" class="btn btn--primary" target="_blank" rel="noopener">Support on Ko-fi</a>
       </div>
     </div>
   </div>
