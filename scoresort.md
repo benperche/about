@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ScoreSort
-description: A macOS app for sorting and organising music PDF files by instrument.
+description: A macOS app for working with music PDFs — combine, rename, split, and rotate parts.
 ---
 
 <div class="page-header">
@@ -13,59 +13,87 @@ description: A macOS app for sorting and organising music PDF files by instrumen
 
 <section>
   <div class="container--wide">
-    <div class="scoresort__hero">
-      <div class="scoresort__intro">
-        <p class="scoresort__tagline">Sort your music PDFs by instrument — fast.</p>
-        <p>
-          ScoreSort is a macOS app for musicians and ensemble directors who deal with large
-          collections of music PDFs. Drop in a folder of parts and ScoreSort will
-          organise them by instrument according to your ensemble's layout — saving
-          the tedious manual sorting that eats up rehearsal prep time.
-        </p>
-        <p>
-          It runs entirely on your device. No accounts, no internet, no tracking —
-          just your files, sorted.
-        </p>
-        <div class="scoresort__actions">
-          <a href="/assets/downloads/ScoreSort-1.0.dmg" class="btn btn--primary">Download for Mac</a>
-          <a href="https://ko-fi.com/YOUR_USERNAME" class="btn btn--outline" target="_blank" rel="noopener">Pay what you want →</a>
-        </div>
-        <p class="scoresort__req">Requires macOS 13 Ventura or later &nbsp;·&nbsp; Apple Silicon &amp; Intel</p>
+    <div class="scoresort__intro">
+      <p class="scoresort__tagline">All your music PDF work in one place.</p>
+      <p>
+        ScoreSort is a macOS app for musicians and ensemble directors who work with PDF parts.
+        Combine separate parts into a single print-ready file, rename a folder of scans, put
+        files into score order, split a bound scan apart, or fix rotated pages — without leaving
+        the app.
+      </p>
+      <p>
+        It runs entirely on your device. No accounts, no internet, no tracking —
+        just your files.
+      </p>
+      <div class="scoresort__actions">
+        <a href="/assets/downloads/ScoreSort-1.0.dmg" class="btn btn--primary">Download for Mac</a>
+        <a href="https://ko-fi.com/YOUR_USERNAME" class="btn btn--outline" target="_blank" rel="noopener">Pay what you want →</a>
       </div>
+      <p class="scoresort__req">Requires macOS 13 Ventura or later &nbsp;·&nbsp; Apple Silicon &amp; Intel</p>
     </div>
   </div>
 </section>
 
-<section>
+<section class="scoresort__carousel-section">
   <div class="container--wide">
-    <h2>How it works</h2>
-    <div class="scoresort__steps">
 
-      <div class="scoresort__step">
-        <span class="scoresort__step-num">1</span>
-        <div>
-          <h3>Add your files</h3>
-          <p>Open a folder of PDF parts — individual files or a full set of parts from a publisher.</p>
+    <div class="carousel" id="scoresort-carousel">
+      <div class="carousel__track">
+
+        <div class="carousel__slide">
+          <img src="{{ '/assets/images/scoresort/01 combiner.png' | relative_url }}" alt="Combine PDFs tab" class="carousel__img">
+          <div class="carousel__caption">
+            <h3>Combine PDFs</h3>
+            <p>Drag in separate instrument parts and merge them into a single print-ready PDF. Save your usual instrument allocations as Ensemble Presets, and use Collate to interleave pages so each player's copies print together.</p>
+          </div>
         </div>
+
+        <div class="carousel__slide">
+          <img src="{{ '/assets/images/scoresort/02 renamer.png' | relative_url }}" alt="Rename Files tab" class="carousel__img">
+          <div class="carousel__caption">
+            <h3>Rename Files</h3>
+            <p>Replace the filenames of a whole folder at once — ideal for parts downloaded from IMSLP. Enter a base name, fill in each instrument, and the app previews the top corner of every file so you can confirm what you're naming.</p>
+          </div>
+        </div>
+
+        <div class="carousel__slide">
+          <img src="{{ '/assets/images/scoresort/03 score order.png' | relative_url }}" alt="Score Order Sorter" class="carousel__img">
+          <div class="carousel__caption">
+            <h3>Score Order</h3>
+            <p>Add score-order prefixes to already-named files in seconds. Drag a folder in, tweak the order if needed, and re-number everything in one step. Your preferred instrument order is saved in Preferences.</p>
+          </div>
+        </div>
+
+        <div class="carousel__slide">
+          <img src="{{ '/assets/images/scoresort/04 splitter.png' | relative_url }}" alt="Split PDF tab" class="carousel__img">
+          <div class="carousel__caption">
+            <h3>Split PDF</h3>
+            <p>Turn a single bound scan into individual parts. Navigate pages with the arrow keys, place split markers with Space, then name each output file — with score-order prefixes added automatically if you want them.</p>
+          </div>
+        </div>
+
+        <div class="carousel__slide">
+          <img src="{{ '/assets/images/scoresort/05 rotator.png' | relative_url }}" alt="Rotate Pages tab" class="carousel__img">
+          <div class="carousel__caption">
+            <h3>Rotate Pages</h3>
+            <p>Fix sideways or upside-down pages from your scans. Rotate a single page, all pages, or all odd/even pages at once — handy for landscape-scanned scores where every other page came out inverted.</p>
+          </div>
+        </div>
+
       </div>
 
-      <div class="scoresort__step">
-        <span class="scoresort__step-num">2</span>
-        <div>
-          <h3>Set your ensemble</h3>
-          <p>Choose an ensemble type and customise instrument order, separator characters, and naming conventions to match how you work.</p>
-        </div>
-      </div>
+      <button class="carousel__btn carousel__btn--prev" aria-label="Previous">&#8249;</button>
+      <button class="carousel__btn carousel__btn--next" aria-label="Next">&#8250;</button>
 
-      <div class="scoresort__step">
-        <span class="scoresort__step-num">3</span>
-        <div>
-          <h3>Sort</h3>
-          <p>ScoreSort reads the filenames and organises the PDFs into the order you specified. Your preferences are saved for next time.</p>
-        </div>
+      <div class="carousel__dots">
+        <button class="carousel__dot active" aria-label="Slide 1"></button>
+        <button class="carousel__dot" aria-label="Slide 2"></button>
+        <button class="carousel__dot" aria-label="Slide 3"></button>
+        <button class="carousel__dot" aria-label="Slide 4"></button>
+        <button class="carousel__dot" aria-label="Slide 5"></button>
       </div>
-
     </div>
+
   </div>
 </section>
 
@@ -91,13 +119,36 @@ description: A macOS app for sorting and organising music PDF files by instrumen
     <ol class="scoresort__install-steps">
       <li>Download the <code>.dmg</code> file above.</li>
       <li>Open the <code>.dmg</code> and drag <strong>ScoreSort</strong> into your <strong>Applications</strong> folder.</li>
-      <li>The first time you open it, right-click and choose <em>Open</em> to bypass Gatekeeper (required for apps distributed outside the App Store).</li>
+      <li>Open ScoreSort from your Applications folder.</li>
     </ol>
-    <p class="scoresort__gatekeeper-note">
-      <strong>Why the Gatekeeper prompt?</strong> ScoreSort is not distributed through the Mac App Store.
-      Apple requires notarization or a $99/year developer subscription for automatic trust — rather than
-      pass that cost on, the one-time right-click is the tradeoff. The app is safe: it has no network
-      access and touches only files you explicitly open. You can read the <a href="/scoresort-privacy/">privacy policy</a> for full details.
+    <p class="scoresort__privacy-note">
+      ScoreSort is notarized by Apple. It has no network access and touches only the files you
+      explicitly open. Read the <a href="/scoresort-privacy/">privacy policy</a> for full details.
     </p>
   </div>
 </section>
+
+<script>
+(function () {
+  const carousel = document.getElementById('scoresort-carousel');
+  if (!carousel) return;
+
+  const slides = carousel.querySelectorAll('.carousel__slide');
+  const dots   = carousel.querySelectorAll('.carousel__dot');
+  let current  = 0;
+
+  function goTo(n) {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+  }
+
+  slides[0].classList.add('active');
+
+  carousel.querySelector('.carousel__btn--prev').addEventListener('click', () => goTo(current - 1));
+  carousel.querySelector('.carousel__btn--next').addEventListener('click', () => goTo(current + 1));
+  dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
+})();
+</script>
