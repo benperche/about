@@ -6,8 +6,13 @@ description: A macOS app for working with music PDFs — combine, rename, split,
 
 <div class="page-header">
   <div class="container">
-    <p class="page-header__label">macOS App</p>
-    <h1>ScoreSort</h1>
+    <div class="scoresort__header">
+      <div>
+        <p class="page-header__label">macOS App</p>
+        <h1>ScoreSort</h1>
+      </div>
+      <img src="{{ '/assets/images/scoresort/scoresort icon.png' | relative_url }}" alt="ScoreSort icon" class="scoresort__icon">
+    </div>
   </div>
 </div>
 

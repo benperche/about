@@ -665,6 +665,28 @@ section + section { border-top: 1px solid var(--rule); }
 }
 
 /* ─── ScoreSort ──────────────────────────────────────────────────────────────── */
+.scoresort__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.scoresort__icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 22%;
+  flex-shrink: 0;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.10),
+    0 8px 24px rgba(0, 0, 0, 0.14),
+    0 0 0 0.5px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 500px) {
+  .scoresort__icon { width: 72px; height: 72px; }
+}
+
 .scoresort__tagline {
   font-family: var(--font-head);
   font-size: clamp(1.3rem, 2.5vw, 1.7rem);
