@@ -6,7 +6,13 @@ sitemap: false
 ---
 
 <section>
-<div class="rep_list" markdown="1">
+<div class="page-header">
+  <div class="container">
+    <p class="page-header__label">Not Jazz for Jazz Ensemble</p>
+    <h1>Player Info</h1>
+  </div>
+</div>
+<div class="container--wide" markdown="1">
 ## Repertoire List
 Stravinsky - Ebony Concerto
 
