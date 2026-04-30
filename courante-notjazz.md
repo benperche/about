@@ -33,4 +33,4 @@ Ellington - *The Nutcracker Suite*
     <h2>Recordings Playlist</h2>
     <iframe src="https://www.youtube.com/embed/videoseries?list=PLNuNltmDyrvlFYI_JLLbETvQZhIbkSpg1" style="width: 100%; height: 60vh; border: none; margin-top: 2rem;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-</section>
+
