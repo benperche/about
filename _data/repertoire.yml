@@ -2,13 +2,6 @@
 # To add a work: copy an existing entry, change the fields, and push to GitHub.
 # Categories: Orchestral, Chamber, Choral, Opera, Contemporary, Wind Band
 
-- composer: Ludwig van Beethoven
-  work: Symphony No. 7 in A major, Op. 92
-  category: Orchestral
-  last_conducted: 2026
-  birth_year: 1770
-  status: Rehearsed
-  group: SCM Symphony Orchestra
 
 - composer: Felix Mendelssohn
   work: Symphony No. 4 "Italian" in A major
@@ -42,6 +35,65 @@
   status: Rehearsed
   group: SCM Symphony Orchestra
 
+
+- composer: Jean Sibelius
+  work: Andante Festivo
+  category: Orchestral
+  birth_year: 1865
+  status: Performed
+  group: MYO SS
+  last_conducted: 2019
+
+- composer: Gustav Holst
+  work: St. Paul's Suite 
+  category: Orchestral
+  birth_year: 1874
+  status: Performed
+  group: MYO SS
+  last_conducted: 2019
+
+- composer: Joseph Haydn
+  work: Symphony No. 104
+  category: Orchestral
+  birth_year: 1732
+  status: Performed
+  group: MYO SS
+  last_conducted: 2019
+
+- composer: Antonio Vivaldi
+  work: Gloria
+  category: Orchestral
+  birth_year: 1678
+  status: Studied
+
+- composer: Gustav Holst
+  work: The Planets Suite
+  category: Orchestral
+  birth_year: 1874
+  status: Studied
+
+- composer: Gustav Mahler
+  work: Symphony No. 1
+  category: Orchestral
+  birth_year: 1860
+  status: Studied
+
+- composer: Franz Schubert
+  work: Symphony No. 5
+  category: Orchestral
+  birth_year: 1797
+  status: Performed
+  group: MYO Summer School
+  last_conducted: 2026
+
+- composer: Franz Schubert
+  work: Symphony No. 7 "Unfinished" in B minor
+  category: Orchestral
+  birth_year: 1797
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+  last_conducted: 2025
+
 - composer: Johannes Brahms
   work: Academic Festival Overture
   category: Orchestral
@@ -58,13 +110,11 @@
   status: Rehearsed
   group: The Beecroft Orchestra
 
-- composer: Franz Schubert
-  work: Symphony No. 7 "Unfinished" in B minor
+- composer: Johannes Brahms
+  work: Symphony No. 4
   category: Orchestral
-  birth_year: 1797
-  status: Rehearsed
-  group: SCM Symphony Orchestra
-  last_conducted: 2025
+  birth_year: 1833
+  status: Studied
 
 - composer: Johannes Brahms
   work: German Requiem, Op. 45
@@ -75,10 +125,42 @@
   group: Sydney Philharmonia Choirs Festival Chorus
 
 - composer: Wolfgang Amadeus Mozart
+  work: Overture to The Magic Flute
+  category: Orchestral
+  birth_year: 1756
+  status: Studied
+
+- composer: Wolfgang Amadeus Mozart
   work: Symphony No. 41 "Jupiter" in C major, K. 551
   category: Orchestral
   last_conducted: 2025
   birth_year: 1756
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+
+- composer: Wolfgang Amadeus Mozart
+  work: Requiem in D minor
+  category: Orchestral
+  birth_year: 1756
+  status: Studied
+
+- composer: Ludwig Van Beethoven
+  work: Overture to Coriolanus
+  category: Orchestral
+  birth_year: 1770
+  status: Studied
+
+- composer: Ludwig Van Beethoven
+  work: Symphony No. 1
+  category: Orchestral
+  birth_year: 1770
+  status: Studied
+
+- composer: Ludwig van Beethoven
+  work: Symphony No. 7 in A major, Op. 92
+  category: Orchestral
+  last_conducted: 2026
+  birth_year: 1770
   status: Rehearsed
   group: SCM Symphony Orchestra
 
@@ -177,24 +259,6 @@
   status: Performed
   group: EMU Wind Symphony
   last_conducted: 2024
-
-- composer: Gustav Mahler
-  work: Symphony No. 1
-  category: Orchestral
-  birth_year: 1860
-  status: Studied
-
-- composer: Johannes Brahms
-  work: Symphony No. 4
-  category: Orchestral
-  birth_year: 1833
-  status: Studied
-
-- composer: Wolfgang Amadeus Mozart
-  work: Requiem in D minor
-  category: Orchestral
-  birth_year: 1756
-  status: Studied
 
 - composer: Anne McGinty
   work: The Red Balloon
@@ -356,67 +420,7 @@
   group: PHHS CB1
   last_conducted: 2022
 
-- composer: Jean Sibelius
-  work: Andante Festivo
-  category: Orchestral
-  birth_year: 1865
-  status: Performed
-  group: MYO SS
-  last_conducted: 2019
-
-- composer: Gustav Holst
-  work: St. Paul's Suite 
-  category: Orchestral
-  birth_year: 1874
-  status: Performed
-  group: MYO SS
-  last_conducted: 2019
-
-- composer: Joseph Haydn
-  work: Symphony No. 104
-  category: Orchestral
-  birth_year: 1732
-  status: Performed
-  group: MYO SS
-  last_conducted: 2019
-
-- composer: Franz Schubert
-  work: Symphony No. 5
-  category: Orchestral
-  birth_year: 1797
-  status: Performed
-  group: MYO SS
-  last_conducted: 2019
-
-- composer: Antonio Vivaldi
-  work: Gloria
-  category: Orchestral
-  birth_year: 1678
-  status: Studied
-
-- composer: Ludwig Van Beethoven
-  work: Overture to Coriolanus
-  category: Orchestral
-  birth_year: 1770
-  status: Studied
-
-- composer: Wolfgang Amadeus Mozart
-  work: Overture to The Magic Flute
-  category: Orchestral
-  birth_year: 1756
-  status: Studied
-
-- composer: Ludwig Van Beethoven
-  work: Symphony No. 1
-  category: Orchestral
-  birth_year: 1770
-  status: Studied
-
-- composer: Gustav Holst
-  work: The Planets Suite
-  category: Orchestral
-  birth_year: 1874
-  status: Studied
+  # Musical Theatre
 
 - composer: Jacques Offenbach
   work: Orpheus in the Underworld
