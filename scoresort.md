@@ -157,3 +157,12 @@ description: A macOS app for working with music PDFs — combine, rename, split,
   dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
 })();
 </script>
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('benperche', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Tip Me',
+    'floating-chat.donateButton.background-color': '#323842',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
