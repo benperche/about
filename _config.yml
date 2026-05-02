@@ -8,12 +8,11 @@ author:
   name: Ben Perche
   email: benperche2@gmail.com  
 
-# Social links — comment out any you don't want shown
+# Social links
 social:
-  # twitter: yourhandle
-  # instagram: yourhandle
-  # linkedin: yourhandle
-  # youtube: yourchannelid
+  linkedin: https://www.linkedin.com/in/ben-perche-bb199a1a3/
+  youtube: https://www.youtube.com/channel/UCq9RC5spTKDTUyw67Oher-A
+  facebook: https://www.facebook.com/ben.perche.3
 
 # Build settings
 markdown: kramdown

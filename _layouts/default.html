@@ -13,6 +13,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "url": "{{ site.url }}",
+    "jobTitle": "Conductor",
+    "description": "{{ site.description }}",
+    {% assign profiles = "" | split: "" %}
+    {% if site.social.linkedin %}{% assign profiles = profiles | push: site.social.linkedin %}{% endif %}
+    {% if site.social.youtube %}{% assign profiles = profiles | push: site.social.youtube %}{% endif %}
+    {% if site.social.facebook %}{% assign profiles = profiles | push: site.social.facebook %}{% endif %}
+    {% if site.social.twitter %}{% assign profiles = profiles | push: site.social.twitter %}{% endif %}
+    {% if site.social.instagram %}{% assign profiles = profiles | push: site.social.instagram %}{% endif %}
+    "sameAs": {{ profiles | jsonify }}
+  }
+  </script>
 </head>
 <body>
 
