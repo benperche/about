@@ -42,8 +42,13 @@ device.
 
 ## Network access
 
-ScoreSort has no network access. It makes no outbound connections and
-receives no incoming connections.
+ScoreSort can check for updates using the Sparkle framework. When 
+checking for updates, your device makes a network request to GitHub 
+(where release information is hosted) to retrieve the latest version 
+number. No personal data, file content, or usage information is 
+transmitted as part of this request. Update checks only occur in 
+builds downloaded directly from the developer — the App Store / 
+TestFlight version does not make any network connections.
 
 ## Third-party services
 
