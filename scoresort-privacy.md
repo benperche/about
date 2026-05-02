@@ -14,7 +14,7 @@ title: ScoreSort Privacy Policy
 
 # Privacy Policy for ScoreSort
 
-**Last updated: April 2026**
+**Last updated: May 2026**
 
 ## Overview
 
