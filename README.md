@@ -2,4 +2,4 @@
 
 Personal website for Ben Perche, conductor.
 
-Visit: [https://benperche.github.io/about/](https://benperche.github.io/about/)
+Visit: [https://benperche.com](https://benperche.com)
