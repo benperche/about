@@ -31,7 +31,7 @@ description: A macOS app for working with music PDFs — combine, rename, split,
         just your files.
       </p>
       <div class="scoresort__actions">
-        <a href="/assets/downloads/ScoreSort-1.0.dmg" class="btn btn--primary">Download for Mac</a>
+        <a href="https://testflight.apple.com/join/HNDCjU9h" class="btn btn--primary">Join the Testflight</a>
         <a href="https://ko-fi.com/benperche" class="btn btn--outline" target="_blank" rel="noopener">Pay what you want →</a>
       </div>
       <p class="scoresort__req">Requires macOS 13 Ventura or later &nbsp;·&nbsp; Apple Silicon &amp; Intel</p>
