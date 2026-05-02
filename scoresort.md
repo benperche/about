@@ -112,7 +112,9 @@ description: A macOS app for working with music PDFs — combine, rename, split,
           download it free and pay whatever feels right if it saves you time.
           Every contribution helps fund continued development.
         </p>
-        <a href="https://ko-fi.com/benperche" class="btn btn--primary" target="_blank" rel="noopener">Support on Ko-fi</a>
+      </div>
+      <div class="scoresort__pwyw-widget">
+        <iframe id='kofiframe' src='https://ko-fi.com/benperche/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='benperche'></iframe>
       </div>
     </div>
   </div>
@@ -158,11 +160,11 @@ description: A macOS app for working with music PDFs — combine, rename, split,
 })();
 </script>
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
+<!-- <script>
   kofiWidgetOverlay.draw('benperche', {
     'type': 'floating-chat',
     'floating-chat.donateButton.text': 'Tip Me',
     'floating-chat.donateButton.background-color': '#323842',
     'floating-chat.donateButton.text-color': '#fff'
   });
-</script>
+</script> -->
