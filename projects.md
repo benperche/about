@@ -44,6 +44,15 @@ title: Projects
   </div>
 
   <div class="project-card">
+    <p class="project-card__label">Interactive Tool</p>
+    <h2 class="project-card__title">BeatRef</h2>
+    <p class="project-card__desc">
+      A website for building up a set of tempo reference points with YouTube/Spotify links and a metronome
+    </p>
+    <a href="https://benperche.github.io/BeatRef/" class="project-card__link">Open BeatRef →</a>
+  </div>
+
+  <div class="project-card">
       <p class="project-card__label">Chamber Ensemble</p>
       <h2 class="project-card__title">Musique Courante</h2>
       <p class="project-card__desc">
