@@ -52,6 +52,14 @@
   group: MYO SS
   last_conducted: 2019
 
+- composer: Gustav Holst
+  work: The Planets Suite
+  category: Orchestral
+  birth_year: 1874
+  status: Rehearsed
+  group: SCM Symphony Orchestra
+  last_conducted: 2026
+
 - composer: Joseph Haydn
   work: Symphony No. 104
   category: Orchestral
@@ -296,6 +304,22 @@
   work: Symphony No. 3 "Slavanskaya"
   category: Wind Band
   birth_year: 1906
+  status: Rehearsed
+  group: SCM WS
+  last_conducted: 2026
+
+- composer: John Zdechlik
+  work: Celebrations
+  category: Wind Band
+  birth_year: 1937
+  status: Rehearsed
+  group: SCM WS
+  last_conducted: 2026
+
+- composer: Jaromir Weinberger/Ed. Glenn Bainum
+  work: Polka and Fugue from "Schwanda, the Bagpiper"
+  category: Wind Band
+  birth_year: 1896
   status: Rehearsed
   group: SCM WS
   last_conducted: 2026

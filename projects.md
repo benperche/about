@@ -45,6 +45,15 @@ title: Projects
 
   <div class="project-card">
     <p class="project-card__label">Interactive Tool</p>
+    <h2 class="project-card__title">Archform</h2>
+    <p class="project-card__desc">
+      A tool for conductors to create elegant phrase diagrams
+    </p>
+    <a href="https://benperche.github.io/Archform/" class="project-card__link">Open Archform →</a>
+  </div>
+
+  <div class="project-card">
+    <p class="project-card__label">Interactive Tool</p>
     <h2 class="project-card__title">BeatRef</h2>
     <p class="project-card__desc">
       A website for building up a set of tempo reference points with YouTube/Spotify links and a metronome
