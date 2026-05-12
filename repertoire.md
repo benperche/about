@@ -20,12 +20,11 @@ title: Repertoire
   {% assign band_categories = "Wind Band" | split: "," %}
   {% assign theatre_categories = "Musical Theatre" | split: "," %}
 
-  <h2 class="repertoire__section-title">Orchestral &amp; Chamber Works</h2>
   {% for category in main_categories %}
     {% assign works = site.data.repertoire | where: "category", category | sort: "birth_year" %}
     {% if works.size > 0 %}
     <div class="repertoire__category">
-      <h3 class="repertoire__category-title">{{ category }}</h3>
+      <h2 class="repertoire__section-title">{{ category }}</h2>
       <ul class="repertoire__list">
         {% for work in works %}
         <li class="repertoire__item">
@@ -42,12 +41,11 @@ title: Repertoire
     {% endif %}
   {% endfor %}
 
-  <h2 class="repertoire__section-title">Wind Band</h2>
   {% for category in band_categories %}
     {% assign works = site.data.repertoire | where: "category", category | sort: "birth_year" %}
     {% if works.size > 0 %}
     <div class="repertoire__category">
-      <h3 class="repertoire__category-title">{{ category }}</h3>
+      <h2 class="repertoire__section-title">{{ category }}</h2>
       <ul class="repertoire__list">
         {% for work in works %}
         <li class="repertoire__item">
@@ -64,12 +62,11 @@ title: Repertoire
     {% endif %}
   {% endfor %}
 
-  <h2 class="repertoire__section-title">Musical Theatre</h2>
-    {% for category in theatre_categories %}
+  {% for category in theatre_categories %}
       {% assign works = site.data.repertoire | where: "category", category | sort: "birth_year" %}
       {% if works.size > 0 %}
       <div class="repertoire__category">
-      <h3 class="repertoire__category-title">{{ category }}</h3>
+      <h2 class="repertoire__section-title">{{ category }}</h2>
       <ul class="repertoire__list">
         {% for work in works %}
         <li class="repertoire__item">
