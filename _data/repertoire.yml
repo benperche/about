@@ -74,12 +74,6 @@
   birth_year: 1678
   status: Studied
 
-- composer: Gustav Holst
-  work: The Planets Suite
-  category: Orchestral
-  birth_year: 1874
-  status: Studied
-
 - composer: Gustav Mahler
   work: Symphony No. 1
   category: Orchestral
@@ -126,7 +120,7 @@
 
 - composer: Johannes Brahms
   work: German Requiem, Op. 45
-  category: Orchestral
+  category: Choir
   last_conducted: 2026
   birth_year: 1833
   status: Rehearsed
@@ -152,13 +146,13 @@
   birth_year: 1756
   status: Studied
 
-- composer: Ludwig Van Beethoven
+- composer: Ludwig van Beethoven
   work: Overture to Coriolanus
   category: Orchestral
   birth_year: 1770
   status: Studied
 
-- composer: Ludwig Van Beethoven
+- composer: Ludwig van Beethoven
   work: Symphony No. 1
   category: Orchestral
   birth_year: 1770
@@ -174,7 +168,7 @@
 
 - composer: Ludwig van Beethoven
   work: Symphony No. 9 in D minor, Op. 125 "Choral"
-  category: Orchestral
+  category: Choir
   last_conducted: 2025
   birth_year: 1770
   status: Rehearsed
@@ -182,7 +176,7 @@
 
 - composer: Michael Tippett
   work: A Child of Our Time
-  category: Orchestral
+  category: Choir
   last_conducted: 2025
   birth_year: 1905
   status: Rehearsed
@@ -193,7 +187,7 @@
   category: Chamber
   birth_year: 1936
   status: Performed
-  group: 
+  group: EMU Percussion
   last_conducted: 2025
 
 - composer: Nico Muhly
@@ -363,6 +357,14 @@
   status: Rehearsed
   group: NSSWE SWE
   last_conducted: 2023
+
+- composer: Eric Whitacre
+  work: Alleluia
+  category: Choir
+  birth_year: 1970
+  status: Rehearsed
+  group: Sydney Philharmonia Choirs Vox
+  last_conducted: 2026
 
 - composer: Johan De Meij
   work: Symphony No. 1 "The Lord of the Rings"
