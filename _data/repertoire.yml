@@ -222,6 +222,30 @@
   group: Musique Courante
   last_conducted: 2026
 
+- composer: Matthew Hindson
+  work: This Year's Apocalypse
+  category: Chamber
+  birth_year: 1968
+  status: Rehearsed
+  group: SCM New Music Ensemble
+  last_conducted: 2025
+
+- composer: Paul Stanhope
+  work: Apollo for Wind Octet
+  category: Chamber
+  birth_year: 1969
+  status: Rehearsed
+  group: SCM New Music Ensemble
+  last_conducted: 2025
+
+- composer: Liza Lim
+  work: Veil for 8 players
+  category: Chamber
+  birth_year: 1966
+  status: Studied
+  group: SCM New Music Ensemble
+  last_conducted: 2025
+
 - composer: Sadel and Tucci / Arr. Krance
   work: Lola Flores
   category: Wind Band
