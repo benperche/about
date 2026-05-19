@@ -182,6 +182,22 @@
   status: Rehearsed
   group: Sydney Philharmonia Choirs Symphony Chorus
 
+- composer: Antonin Dvorak
+  work: Symphony No. 9 "From the New World"
+  category: Orchestral
+  birth_year: 1841
+  status: Rehearsed
+  group: Regional Youth Orchestra of NSW
+  last_conducted: 2021
+
+- composer: Aaron Copland
+  work: Hoe Down from "Rodeo"
+  category: Orchestral
+  birth_year: 1900
+  status: Rehearsed
+  group: Regional Youth Orchestra of NSW
+  last_conducted: 2019
+
 - composer: Steve Reich
   work: Drumming
   category: Chamber
