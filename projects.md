@@ -36,6 +36,15 @@ title: Projects
 
   <div class="project-card">
     <p class="project-card__label">Interactive Tool</p>
+    <h2 class="project-card__title">StagePlan</h2>
+    <p class="project-card__desc">
+      Advanced Ensemble Seating Chart Generator for Orchestras, Concert Band and Jazz Ensembles
+    </p>
+    <a href="https://benperche.github.io/StagePlan/" class="project-card__link">Open StagePlan →</a>
+  </div>
+
+  <div class="project-card">
+    <p class="project-card__label">Interactive Tool</p>
     <h2 class="project-card__title">Harmonicon</h2>
     <p class="project-card__desc">
       A harmony calculator for exploring chord relationships, and harmonic analysis using Roman Numerals and Figured Bass

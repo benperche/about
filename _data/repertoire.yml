@@ -19,6 +19,14 @@
   status: Rehearsed
   group: SCM Symphony Orchestra
 
+- composer: Felix Mendelssohn
+  work: Elijah, Op. 70 (Oratorio)
+  category: Orchestral
+  last_conducted: 2026
+  birth_year: 1809
+  status: Rehearsed
+  group: CCYO
+
 - composer: Gioachino Rossini
   work: The Italian Girl in Algiers Overture
   category: Orchestral
@@ -261,6 +269,13 @@
   status: Studied
   group: SCM New Music Ensemble
   last_conducted: 2025
+
+- composer: Igor Stravinsky
+  work: Octet for Wind Instruments
+  category: Chamber
+  birth_year: 1882
+  status: Studied
+  last_conducted: 2026
 
 - composer: Sadel and Tucci / Arr. Krance
   work: Lola Flores
