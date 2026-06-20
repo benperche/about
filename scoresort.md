@@ -129,8 +129,10 @@ description: A macOS app for working with music PDFs — combine, rename, split,
       <li>Open ScoreSort from your Applications folder.</li>
     </ol>
     <p class="scoresort__privacy-note">
-      ScoreSort is notarized by Apple. It has no network access and touches only the files you
-      explicitly open. Read the <a href="/scoresort-privacy/">privacy policy</a> for full details.
+      <h2>Copyright & your files</h2>
+      <p>ScoreSort is a tool for organising music you already have, and it runs entirely on your own Mac. It never uploads or shares your files, and it only touches the files you choose to open. The single network connection it makes is to check for updates — and because it's notarised by Apple, it opens without security warnings. Read the <a href="/scoresort-privacy/">privacy policy</a> for full details.</p>
+
+      <p>Please only use ScoreSort with music you're entitled to copy — works you've purchased with copy permissions, public-domain editions, your own compositions and arrangements, or material covered by your school or ensemble's copyright licence. How you use the files you create is your responsibility.</p>
     </p>
   </div>
 </section>
