@@ -17,13 +17,13 @@ sitemap: false
 
 Stravinsky - *Ebony Concerto*
 
-Andriessen - *De Stijl*
-
-Bernstein - *Prelude, Fugue and Riffs*
+Copley - *Shea Butter Suite*
 
 Lang - *street*
 
-Ellington - *The Nutcracker Suite*
+Ellington - *The Nutcracker Suite* (excerpts)
+
+Bernstein - *Prelude, Fugue and Riffs*
 
  </div>
   <p>
