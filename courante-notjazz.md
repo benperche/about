@@ -28,10 +28,10 @@ Ellington - *The Nutcracker Suite* (excerpts TBC)
 
 Bernstein - *Prelude, Fugue and Riffs*
 
-*Repertoire subject to change, however this repertoire is very close to locked in.*
-*All practice parts to be provided by November, and hopefully earlier*
+> *Repertoire subject to change, however this repertoire is very close to locked in. All practice parts to be provided by November, and hopefully earlier*
 
-Rehearsal Schedule
+## Rehearsal Schedule
+> Repertoire allocation is subject to change (especially after the first readthrough), please hold all rehearsals available on your calendar. A detailed piece-by-piece schedule will be provided closer to the rehearsal period.
  </div>
   <p>
   <div class="container--wide">
