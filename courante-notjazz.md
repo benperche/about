@@ -3,6 +3,7 @@ layout: default
 title: Courante (not jazz)
 permalink: /courante-notjazz/
 sitemap: false
+noindex: true
 ---
 
 <section>
@@ -39,7 +40,7 @@ Bernstein - *Prelude, Fugue and Riffs*
 
 ## Recordings Playlist
 
-[Link to Full Playlist](https://youtube.com/playlist?list=PLNuNltmDyrvlFYI_JLLbETvQZhIbkSpg1&si=DBoUFnCxpR-O7pvB)
+[Link to Full Playlist](https://youtube.com/playlist?list=PLNuNltmDyrvlFYI_JLLbETvQZhIbkSpg1&si=DBoUFnCxpR-O7pvB){:target="_blank" rel="noopener"}
 
   <iframe src="https://www.youtube.com/embed/videoseries?list=PLNuNltmDyrvlFYI_JLLbETvQZhIbkSpg1" style="width: 100%; height: 60vh; border: none; margin-top: 2rem;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

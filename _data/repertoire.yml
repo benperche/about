@@ -1,6 +1,6 @@
 # Repertoire list for Ben Perche
 # To add a work: copy an existing entry, change the fields, and push to GitHub.
-# Categories: Orchestral, Chamber, Choral, Opera, Contemporary, Wind Band
+# Categories: Orchestral, Chamber, Choral, Opera, Contemporary, Wind Band, Musical Theatre
 
 
 - composer: Felix Mendelssohn
@@ -128,7 +128,7 @@
 
 - composer: Johannes Brahms
   work: German Requiem, Op. 45
-  category: Choir
+  category: Choral
   last_conducted: 2026
   birth_year: 1833
   status: Rehearsed
@@ -176,7 +176,7 @@
 
 - composer: Ludwig van Beethoven
   work: Symphony No. 9 in D minor, Op. 125 "Choral"
-  category: Choir
+  category: Choral
   last_conducted: 2025
   birth_year: 1770
   status: Rehearsed
@@ -184,7 +184,7 @@
 
 - composer: Michael Tippett
   work: A Child of Our Time
-  category: Choir
+  category: Choral
   last_conducted: 2025
   birth_year: 1905
   status: Rehearsed
@@ -415,7 +415,7 @@
 
 - composer: Eric Whitacre
   work: Alleluia
-  category: Choir
+  category: Choral
   birth_year: 1970
   status: Rehearsed
   group: Sydney Philharmonia Choirs Vox

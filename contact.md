@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+description: Contact Ben Perche about conducting, programming, or anything else.
 ---
 
 <div class="page-header">
@@ -18,17 +19,9 @@ title: Contact
         please reach out by email.
       </p>
 
-      <!-- Update with your actual email address -->
-      <a href="mailto:benperche2@gmail.com" class="contact__email">benperche2@gmail.com</a>
+      <a href="mailto:{{ site.author.email }}" class="contact__email">{{ site.author.email }}</a>
 
-      <!-- Uncomment and fill in whichever social links you want to show -->
-      
-      <ul class="social-links">
-        <li><a href="https://www.linkedin.com/in/ben-perche-bb199a1a3/" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://www.youtube.com/channel/UCq9RC5spTKDTUyw67Oher-A" target="_blank" rel="noopener">YouTube</a></li>
-        <li><a href="https://www.facebook.com/ben.perche.3" target="_blank" rel="noopener">Facebook</a></li>
-      </ul>
-     
+      {% include social-links.html %}
     </div>
   </div>
 </section>

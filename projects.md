@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+description: Tools and resources by Ben Perche for musicians, conductors and school music administrators, including ScoreSort, StagePlan and the Band Admin Handbook.
 ---
 
 <div class="page-header">
@@ -21,7 +22,7 @@ title: Projects
       A macOS app for sorting music PDF parts by instrument.
       Pay what you want — download free and contribute if it's useful.
     </p>
-    <a href="/scoresort/" class="project-card__link">Download ScoreSort →</a>
+    <a href="{{ '/scoresort/' | relative_url }}" class="project-card__link">Download ScoreSort →</a>
   </div>
 
   <div class="project-card">
@@ -31,7 +32,7 @@ title: Projects
       A practical guide to the administrative and organisational side of running
       a school ensemble — written for parents, conductors and volunteers who are looking for help navigating the complexities of a school program.
     </p>
-    <a href="https://bit.ly/bandadminhandbook" class="project-card__link">Check out the handbook →</a>
+    <a href="https://bit.ly/bandadminhandbook" class="project-card__link" target="_blank" rel="noopener">Check out the handbook →</a>
   </div>
 
   <div class="project-card">
@@ -40,7 +41,7 @@ title: Projects
     <p class="project-card__desc">
       Advanced Ensemble Seating Chart Generator for Orchestras, Concert Band and Jazz Ensembles
     </p>
-    <a href="https://benperche.github.io/StagePlan/" class="project-card__link">Open StagePlan →</a>
+    <a href="https://benperche.github.io/StagePlan/" class="project-card__link" target="_blank" rel="noopener">Open StagePlan →</a>
   </div>
 
   <div class="project-card">
@@ -49,7 +50,7 @@ title: Projects
     <p class="project-card__desc">
       A harmony calculator for exploring chord relationships, and harmonic analysis using Roman Numerals and Figured Bass
     </p>
-    <a href="https://benperche.github.io/harmonicon/" class="project-card__link">Open Harmonicon →</a>
+    <a href="https://benperche.github.io/harmonicon/" class="project-card__link" target="_blank" rel="noopener">Open Harmonicon →</a>
   </div>
 
   <div class="project-card">
@@ -58,7 +59,7 @@ title: Projects
     <p class="project-card__desc">
       A tool for conductors to create elegant phrase diagrams
     </p>
-    <a href="https://benperche.github.io/Archform/" class="project-card__link">Open Archform →</a>
+    <a href="https://benperche.github.io/Archform/" class="project-card__link" target="_blank" rel="noopener">Open Archform →</a>
   </div>
 
   <div class="project-card">
@@ -67,7 +68,7 @@ title: Projects
     <p class="project-card__desc">
       A website for building up a set of tempo reference points with YouTube/Spotify links and a metronome
     </p>
-    <a href="https://benperche.github.io/BeatRef/" class="project-card__link">Open BeatRef →</a>
+    <a href="https://benperche.github.io/BeatRef/" class="project-card__link" target="_blank" rel="noopener">Open BeatRef →</a>
   </div>
 
   <div class="project-card">
@@ -76,7 +77,7 @@ title: Projects
       <p class="project-card__desc">
         Project based ensemble in Sydney dedicated to presenting contemporary chamber works.
       </p>
-      <a href="https://benperche.github.io/intricate-mechanisms/ProgramNotesQR.pdf" class="project-card__link">Intricate Mechnaisms Program →</a>
+      <a href="https://benperche.github.io/intricate-mechanisms/ProgramNotesQR.pdf" class="project-card__link" target="_blank" rel="noopener">Intricate Mechanisms Program →</a>
   </div>
 
   <div class="project-card">
@@ -85,7 +86,7 @@ title: Projects
     <p class="project-card__desc">
       Web software designed especially for running music programs.
     </p>
-    <a href="https://www.bandforte.com.au" class="project-card__link">Check out Bandforté →</a>
+    <a href="https://www.bandforte.com.au" class="project-card__link" target="_blank" rel="noopener">Check out Bandforté →</a>
   </div>
 
   </div>

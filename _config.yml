@@ -6,7 +6,7 @@ url: "https://benperche.com"
 
 author:
   name: Ben Perche
-  email: benperche2@gmail.com  
+  email: benperche2@gmail.com
 
 # Social links
 social:
@@ -26,3 +26,11 @@ exclude:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Default image for link previews (Facebook, LinkedIn, iMessage, etc.)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/BenRecital2026.jpg

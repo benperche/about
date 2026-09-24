@@ -286,6 +286,14 @@ section + section { border-top: 1px solid var(--rule); }
   animation: fadeUp 0.7s ease 0.45s both;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 /* ─── Buttons ─────────────────────────────────────────────────────────────────── */
 .btn {
   display: inline-block;
@@ -538,6 +546,9 @@ section + section { border-top: 1px solid var(--rule); }
 /* ─── Footer ─────────────────────────────────────────────────────────────────── */
 .footer {
   border-top: 1px solid var(--rule);
+}
+
+.footer__inner {
   padding: 2.5rem 0;
   display: flex;
   align-items: center;
@@ -562,7 +573,7 @@ section + section { border-top: 1px solid var(--rule); }
 .footer__links a:hover { color: var(--ink); text-decoration: none; }
 
 @media (max-width: 600px) {
-  .footer { flex-direction: column; text-align: center; }
+  .footer__inner { flex-direction: column; text-align: center; }
 }
 
 /* ─── Landscape Hero Banner ──────────────────────────────────────────────────── */
@@ -883,6 +894,12 @@ section + section { border-top: 1px solid var(--rule); }
   cursor: pointer;
   padding: 0;
   transition: background 0.15s;
+}
+
+.carousel:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 0.5rem;
+  border-radius: var(--radius);
 }
 
 .carousel__dot.active {

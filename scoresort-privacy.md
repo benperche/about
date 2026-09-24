@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ScoreSort Privacy Policy
+description: Privacy policy for ScoreSort. The app collects no personal data and processes all files on your device.
 ---
 
 <div class="page-header">
@@ -67,7 +68,7 @@ revised.
 
 ## Contact
 
-If you have any questions about this policy, please contact me at benperche2@gmail.com. 
+If you have any questions about this policy, please contact me at [{{ site.author.email }}](mailto:{{ site.author.email }}).
 <!-- or open an issue at [github.com/benperche/ScoreSort](https://github.com/benperche/ScoreSort) -->
   </div>
 </section>

@@ -42,7 +42,7 @@ description: A macOS app for working with music PDFs — combine, rename, split,
 <section class="scoresort__carousel-section">
   <div class="container--wide">
 
-    <div class="carousel" id="scoresort-carousel">
+    <div class="carousel" id="scoresort-carousel" tabindex="0" role="region" aria-roledescription="carousel" aria-label="ScoreSort screenshots (use left and right arrow keys to navigate)">
       <div class="carousel__track">
 
         <div class="carousel__slide">
@@ -91,7 +91,7 @@ description: A macOS app for working with music PDFs — combine, rename, split,
       <button class="carousel__btn carousel__btn--next" aria-label="Next">&#8250;</button>
 
       <div class="carousel__dots">
-        <button class="carousel__dot active" aria-label="Slide 1"></button>
+        <button class="carousel__dot active" aria-label="Slide 1" aria-current="true"></button>
         <button class="carousel__dot" aria-label="Slide 2"></button>
         <button class="carousel__dot" aria-label="Slide 3"></button>
         <button class="carousel__dot" aria-label="Slide 4"></button>
@@ -128,12 +128,12 @@ description: A macOS app for working with music PDFs — combine, rename, split,
       <li>Open the <code>.dmg</code> and drag <strong>ScoreSort</strong> into your <strong>Applications</strong> folder.</li>
       <li>Open ScoreSort from your Applications folder.</li>
     </ol>
-    <p class="scoresort__privacy-note">
-      <h2>Copyright & your files</h2>
-      <p>ScoreSort is a tool for organising music you already have, and it runs entirely on your own Mac. It never uploads or shares your files, and it only touches the files you choose to open. The single network connection it makes is to check for updates — and because it's notarised by Apple, it opens without security warnings. Read the <a href="/scoresort-privacy/">privacy policy</a> for full details.</p>
+    <div class="scoresort__privacy-note">
+      <h2>Copyright &amp; your files</h2>
+      <p>ScoreSort is a tool for organising music you already have, and it runs entirely on your own Mac. It never uploads or shares your files, and it only touches the files you choose to open. The single network connection it makes is to check for updates — and because it's notarised by Apple, it opens without security warnings. Read the <a href="{{ '/scoresort-privacy/' | relative_url }}">privacy policy</a> for full details.</p>
 
       <p>Please only use ScoreSort with music you're entitled to copy — works you've purchased with copy permissions, public-domain editions, your own compositions and arrangements, or material covered by your school or ensemble's copyright licence. How you use the files you create is your responsibility.</p>
-    </p>
+    </div>
   </div>
 </section>
 
@@ -149,9 +149,11 @@ description: A macOS app for working with music PDFs — combine, rename, split,
   function goTo(n) {
     slides[current].classList.remove('active');
     dots[current].classList.remove('active');
+    dots[current].removeAttribute('aria-current');
     current = (n + slides.length) % slides.length;
     slides[current].classList.add('active');
     dots[current].classList.add('active');
+    dots[current].setAttribute('aria-current', 'true');
   }
 
   slides[0].classList.add('active');
@@ -159,14 +161,9 @@ description: A macOS app for working with music PDFs — combine, rename, split,
   carousel.querySelector('.carousel__btn--prev').addEventListener('click', () => goTo(current - 1));
   carousel.querySelector('.carousel__btn--next').addEventListener('click', () => goTo(current + 1));
   dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
+  carousel.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft')  { e.preventDefault(); goTo(current - 1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); goTo(current + 1); }
+  });
 })();
 </script>
-<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<!-- <script>
-  kofiWidgetOverlay.draw('benperche', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Tip Me',
-    'floating-chat.donateButton.background-color': '#323842',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script> -->

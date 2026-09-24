@@ -5,7 +5,7 @@ title: Home
 
 <div class="hero">
   <div class="hero__banner">
-    <img src="{{ '/assets/images/BenRecital2026.png' | relative_url }}" alt="Ben Perche conducting" class="hero__banner-img">
+    <img src="{{ '/assets/images/BenRecital2026.jpg' | relative_url }}" alt="Ben Perche conducting" class="hero__banner-img">
     <div class="hero__banner-overlay">
       <div class="hero__banner-text">
         <p class="hero__eyebrow">Conductor</p>
@@ -46,10 +46,6 @@ title: Home
 <section>
   <div class="container">
     <h2>Connect with Ben</h2>
-    <ul class="social-links">
-        <li><a href="https://www.linkedin.com/in/ben-perche-bb199a1a3/" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://www.youtube.com/channel/UCq9RC5spTKDTUyw67Oher-A" target="_blank" rel="noopener">YouTube</a></li>
-        <li><a href="https://www.facebook.com/ben.perche.3" target="_blank" rel="noopener">Facebook</a></li>
-      </ul>
+    {% include social-links.html %}
   </div>
 </section>

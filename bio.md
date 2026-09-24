@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About
+title: Bio
+description: Biography of Ben Perche, an Australian conductor working across orchestral, choral, wind band and chamber music, with a particular interest in new music.
 ---
 
 <div class="page-header">
@@ -22,13 +23,6 @@ Ben has directed and organised ambitious performances, including György Ligeti�
 He has worked extensively as a conductor and administrator with primary and high school bands across Sydney’s North Shore and Northern Beaches. His experience includes work with music extension programs such as the Northern Sydney Symphonic Wind Ensemble (NSSWE) and The Arts Unit initiatives within the Department of Education. He also authored a free ‘Band Program Administration Handbook’ to help new administrators and parent committees run effective school programs, and serves on the committee of the Australian Band and Orchestra Directors Association (NSW).
 
 He holds bachelor’s degrees in music (oboe and conducting) from the Sydney Conservatorium of Music, and engineering (mechatronics) from the University of Sydney, as well as an AMusA from the AMEB in oboe. He developed his conducting skills through programs delivered by ABODA, Melbourne Youth Orchestra, Ensemble Offspring, and the Tasmanian Symphony Orchestra. As an oboist, Ben plays in numerous semi-professional and community ensembles across Sydney and the Central Coast, as well as in the pit with local musical theatre productions. After a year of postgraduate study in the United States under Dr Mary Schneider, Ben is now completing a Masters of Music Studies in Conducting at the Sydney Conservatorium under Professor Ben Northey.
-
-<!-- <p>
-Placeholder: [Training, formative experiences, ensembles you've worked with, etc.]
-</p>
-<p>
-Placeholder: [Anything about your philosophy, interests, or future directions.]
-</p> -->
 </div>
   </div>
   </div>

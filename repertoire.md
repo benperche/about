@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Repertoire
+description: Selected orchestral, chamber, choral, wind band and musical theatre works conducted by Ben Perche.
 ---
 
 <div class="page-header">
