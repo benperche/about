@@ -19,7 +19,7 @@ description: Contact Ben Perche about conducting, programming, or anything else.
         please reach out by email.
       </p>
 
-      <a href="mailto:{{ site.author.email }}" class="contact__email">{{ site.author.email }}</a>
+      {% include email-link.html class="contact__email" %}
 
       {% include social-links.html %}
     </div>

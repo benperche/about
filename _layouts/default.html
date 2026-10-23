@@ -76,6 +76,16 @@
     </div>
   </footer>
 
+  <!-- Reassemble spam-protected email links (see _includes/email-link.html) -->
+  <script>
+    document.querySelectorAll('.js-email').forEach(function (a) {
+      var rev = function (s) { return s.split('').reverse().join(''); };
+      var email = rev(a.dataset.u) + '@' + rev(a.dataset.d);
+      a.href = 'mailto:' + email;
+      a.textContent = email;
+    });
+  </script>
+
   <!-- Analytics: GoatCounter — privacy-friendly, no cookies, no personal data -->
   <script data-goatcounter="https://benperche.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 

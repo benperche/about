@@ -1,0 +1,18 @@
+{% assign works = site.data.repertoire | where: "category", include.category | sort: "birth_year" %}
+{% if works.size > 0 %}
+<div class="repertoire__category">
+  <h2 class="repertoire__section-title">{{ include.category }}</h2>
+  <ul class="repertoire__list">
+    {% for work in works %}
+    <li class="repertoire__item">
+      <div class="repertoire__main">
+        <span class="repertoire__composer">{{ work.composer }}</span>
+        <span class="repertoire__work">{{ work.work }}</span>
+      </div>
+      {% if work.group %}<span class="repertoire__group">{{ work.group }}</span>{% endif %}
+      {% if work.last_conducted %}<span class="repertoire__year">{{ work.last_conducted }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

@@ -17,72 +17,10 @@ description: Selected orchestral, chamber, choral, wind band and musical theatre
       A selection of works conducted. Where applicable, the group is listed below each piece with the year the piece was worked on. Pieces listed in chronological order of composer birth date.
     </p>
 
-  {% assign main_categories = "Orchestral,Chamber,Choral,Opera,Contemporary" | split: "," %}
-  {% assign band_categories = "Wind Band" | split: "," %}
-  {% assign theatre_categories = "Musical Theatre" | split: "," %}
-
-  {% for category in main_categories %}
-    {% assign works = site.data.repertoire | where: "category", category | sort: "birth_year" %}
-    {% if works.size > 0 %}
-    <div class="repertoire__category">
-      <h2 class="repertoire__section-title">{{ category }}</h2>
-      <ul class="repertoire__list">
-        {% for work in works %}
-        <li class="repertoire__item">
-          <div class="repertoire__main">
-            <span class="repertoire__composer">{{ work.composer }}</span>
-            <span class="repertoire__work">{{ work.work }}</span>
-          </div>
-          {% if work.group %}<span class="repertoire__group">{{ work.group }}</span>{% endif %}
-          {% if work.last_conducted %}<span class="repertoire__year">{{ work.last_conducted }}</span>{% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
+  {% assign categories = "Orchestral,Chamber,Choral,Opera,Contemporary,Wind Band,Musical Theatre" | split: "," %}
+  {% for category in categories %}
+    {% include repertoire-category.html category=category %}
   {% endfor %}
-
-  {% for category in band_categories %}
-    {% assign works = site.data.repertoire | where: "category", category | sort: "birth_year" %}
-    {% if works.size > 0 %}
-    <div class="repertoire__category">
-      <h2 class="repertoire__section-title">{{ category }}</h2>
-      <ul class="repertoire__list">
-        {% for work in works %}
-        <li class="repertoire__item">
-          <div class="repertoire__main">
-            <span class="repertoire__composer">{{ work.composer }}</span>
-            <span class="repertoire__work">{{ work.work }}</span>
-          </div>
-          {% if work.group %}<span class="repertoire__group">{{ work.group }}</span>{% endif %}
-          {% if work.last_conducted %}<span class="repertoire__year">{{ work.last_conducted }}</span>{% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
-  {% endfor %}
-
-  {% for category in theatre_categories %}
-      {% assign works = site.data.repertoire | where: "category", category | sort: "birth_year" %}
-      {% if works.size > 0 %}
-      <div class="repertoire__category">
-      <h2 class="repertoire__section-title">{{ category }}</h2>
-      <ul class="repertoire__list">
-        {% for work in works %}
-        <li class="repertoire__item">
-          <div class="repertoire__main">
-            <span class="repertoire__composer">{{ work.composer }}</span>
-            <span class="repertoire__work">{{ work.work }}</span>
-          </div>
-          {% if work.group %}<span class="repertoire__group">{{ work.group }}</span>{% endif %}
-          {% if work.last_conducted %}<span class="repertoire__year">{{ work.last_conducted }}</span>{% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-      {% endif %}
-    {% endfor %}
 
   </div>
 </section>

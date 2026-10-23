@@ -1,0 +1,7 @@
+{%- comment -%}
+  Email link that keeps the address out of the page source to deter spam
+  scrapers. The user and domain parts are stored reversed and reassembled by
+  the script in _layouts/default.html. Optional: include.class
+{%- endcomment -%}
+{%- assign email_parts = site.author.email | split: "@" -%}
+<a href="#" class="js-email {{ include.class }}" data-u="{{ email_parts[0] | split: '' | reverse | join: '' }}" data-d="{{ email_parts[1] | split: '' | reverse | join: '' }}">(enable JavaScript to see email address)</a>

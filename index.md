@@ -37,7 +37,7 @@ title: Home
 <section>
   <div class="container">
     <h2>Projects</h2>
-    <p style="color:var(--mid); margin-bottom:2rem;">Tools and resources I've created for musicians and school music administrators.</p>
+    <p class="section-intro">Tools and resources I've created for musicians and school music administrators.</p>
     <a href="{{ '/projects/' | relative_url }}" class="btn btn--outline">View projects</a>
   </div>
 </section>

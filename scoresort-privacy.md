@@ -68,7 +68,7 @@ revised.
 
 ## Contact
 
-If you have any questions about this policy, please contact me at [{{ site.author.email }}](mailto:{{ site.author.email }}).
+If you have any questions about this policy, please contact me at {% include email-link.html %}.
 <!-- or open an issue at [github.com/benperche/ScoreSort](https://github.com/benperche/ScoreSort) -->
   </div>
 </section>
