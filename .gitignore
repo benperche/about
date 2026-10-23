@@ -1,3 +1,6 @@
 .DS_Store
 **/.DS_Store
 .claude/worktrees/
+
+# Full-resolution source photos (web versions live in assets/images)
+assets/images/originals/

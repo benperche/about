@@ -23,6 +23,7 @@ exclude:
   - README.md
   - node_modules
   - vendor
+  - assets/images/originals
 
 plugins:
   - jekyll-sitemap
@@ -33,4 +34,4 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/BenRecital2026.jpg
+      image: /assets/images/ben-perche-conducting.jpg

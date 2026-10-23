@@ -5,7 +5,7 @@ title: Home
 
 <div class="hero">
   <div class="hero__banner">
-    <img src="{{ '/assets/images/BenRecital2026.jpg' | relative_url }}" alt="Ben Perche conducting" class="hero__banner-img">
+    <img src="{{ '/assets/images/ben-perche-conducting.jpg' | relative_url }}" alt="Ben Perche conducting" class="hero__banner-img">
     <div class="hero__banner-overlay">
       <div class="hero__banner-text">
         <p class="hero__eyebrow">Conductor</p>

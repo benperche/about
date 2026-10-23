@@ -14,7 +14,7 @@ description: Biography of Ben Perche, an Australian conductor working across orc
 <section>
   <div class="container--wide">
   <div class="about__inner">
-  <img src="{{ '/assets/images/BenHeadshot.jpg' | relative_url }}" alt="Ben Perche" class="about__headshot">
+  <img src="{{ '/assets/images/ben-perche-headshot.jpg' | relative_url }}" alt="Ben Perche" class="about__headshot">
     <div class="bio__body" markdown="1">
 Ben is a new generation conductor passionate about new music and music education. 
 
