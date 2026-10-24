@@ -414,13 +414,15 @@ section + section { border-top: 1px solid var(--rule); }
 }
 
 .project-card {
+  position: relative;
   border: 1px solid var(--rule);
   border-radius: var(--radius);
   padding: 2rem;
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 
-.project-card:hover {
+.project-card:hover,
+.project-card:focus-within {
   border-color: var(--navy);
   box-shadow: 0 4px 20px rgba(26,53,96,0.08);
 }
@@ -457,7 +459,20 @@ section + section { border-top: 1px solid var(--rule); }
   gap: 0.4rem;
 }
 
-.project-card__link:hover { text-decoration: underline; }
+.project-card:hover .project-card__link { text-decoration: underline; }
+
+/* Stretch the card's link over the whole card so anywhere is clickable */
+.project-card__link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.project-card__link:focus-visible { outline: none; }
+.project-card:has(.project-card__link:focus-visible) {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
+}
 
 /* ─── Contact ────────────────────────────────────────────────────────────────── */
 .contact__body {
